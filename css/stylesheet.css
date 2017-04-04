@@ -1,0 +1,41 @@
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	/* VARIABLES */
+	--black : #262626;
+}
+
+p {
+	font-size: 1vw;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 4vw;
+	color: white;
+	font-weight: 900;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3vw;
+	color: white;
+	font-weight: 900;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2vw;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+
+.noir {
+	background-color: var(--black);
+}
