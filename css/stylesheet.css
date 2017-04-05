@@ -40,8 +40,7 @@ h3 {
 	text-align: center;
 }
 
-<<<<<<< HEAD
-=======
+
 .colonnes {
 	display: flex;
 	justify-content: space-between;
@@ -55,7 +54,7 @@ h3 {
 	background-color: var(--bleu);
 	text-align: center;
 }
->>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
+
 
 .articlebloc:first-child{
 	margin-left: 0;
@@ -65,10 +64,27 @@ h3 {
 	margin-right: 0;
 }
 
-<<<<<<< HEAD
+
 .image{
 	display: flex;
-	margin:0;
+	margin-bottom: 40px;
+}
+
+.image .date{
+	position: absolute;
+}
+
+.date{
+	color: var(--blanc);
+	position: relative;
+
+}
+
+.textebloc{
+	background-color: var(--blanc);
+	margin-bottom: 40px;
+	margin-left: 0;
+
 }
 
 /* page actus */
@@ -130,11 +146,10 @@ transition: .8s all .3s;
 max-height:15em;
 }
 
-{
 
-=======
 .articlebloc {
 	margin: 20px;
 	justify-content: center;
->>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
+
 }
+
