@@ -39,3 +39,9 @@ h3 {
 	font-weight: 700;
 	text-align: center;
 }
+
+
+.colonnes {
+	display: flex;
+	justify-content: space-between;
+}
