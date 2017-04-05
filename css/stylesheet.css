@@ -22,17 +22,12 @@ body {
 ul{
 	display: flex;
 	justify-content: space-between;
-
-
 }
 
 li a{
 	list-style: none;
 	color: white;
 	text-decoration: none;
-	
-	
-
 }
 
 /*menu deroulant qui ne fonctionne pas :( ...je reprends plus tard - cecile-*/
@@ -219,3 +214,72 @@ h3 {
 	justify-content: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DEBUT PARTIE MARINE*/
+
+
+
+
+
+
+
+/*FIN PARTIE MARINE*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*DEBUT PARTIE CECILE*/
+
+
+
+
+
+
+
+/*FIN PARTIE CECILE*/
