@@ -14,121 +14,6 @@ body {
 	background-color: var(--noir);
 }
 
-
-p {
-	font-size: 1vw;
-	font-weight: 400;
-}
-
-h1 {
-	font-size: 4vw;
-	color: var(--blanc);
-	font-weight: 900;
-	text-align: center;
-}
-
-h2 {
-	font-size: 3vw;
-	color: var(--blanc);
-	font-weight: 900;
-	text-align: center;
-}
-
-h3 {
-	font-size: 2vw;
-	color: var(--blanc);
-	font-weight: 700;
-	text-align: center;
-}
-
-.colonnes {
-	display: flex;
-	justify-content: space-between;
-}
-
-/*PARTIE GWENDAL*/
-.blanc {
-	background-color: white;
-}
-
-.ancre {
-	display: flex;
-}
-
-.image1 {
-	background-image: url(../images/logement.png);
-	height: 427px;
-	width: 640px  
-}
-
-.image2 {
-	background-image: url(../images/restauration.png);
-	height: 427px;
-	width: 640px
-}
-
-.image3 {
-	background-image: url(../images/auberge.png);
-	height: 427px;
-	width: 640px;
-
-}
-.ancrebouton {
-	background-color: var(--noir);
-}
-
-.texteblocB {
-	position: relative;
-	top: -3px;
-	margin: 0;
-	padding: 10px;
-	background-color: var(--bleu);
-	text-align: center;
-}
-
-.colfoot {
-	display: flex;
-}
-
-.afsame {
-	display: flex;
-}
-
-/*FIN PARTIE GWENDAL*/
-
-
-.articlebloc:first-child{
-	margin-left: 0;
-}
-
-.articlebloc:last-child{
-	margin-right: 0;
-}
-
- /* cecile*/
-.image{
-	display: flex;
-	margin-bottom: 40px;
-}
-
-.image .date{
-	position: absolute;
-}
-
-.date{
-	color: var(--blanc);
-	position: relative;
-
-}
-
-.textebloc{
-	background-color: var(--blanc);
-	padding-bottom: 40px;
-	margin-left: 0;
-
-}
-
-
 /* page actus */
  
 
@@ -201,11 +86,110 @@ max-height:15em;
 
 /* PARAGRAPHES ET TITRES */
 
+p {
+	font-size: 1vw;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 4vw;
+	color: var(--blanc);
+	font-weight: 900;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3vw;
+	color: var(--blanc);
+	font-weight: 900;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2vw;
+	color: var(--blanc);
+	font-weight: 700;
+	text-align: center;
+}
+
+/* FLEXBOX TROIS COLONNES */
 .colonnes {
 	display: flex;
 	justify-content: space-between;
 }
 
+/*PARTIE GWENDAL*/
+.blanc {
+	background-color: white;
+}
+
+.ancre {
+	display: flex;
+}
+
+.image1 {
+	background-image: url(../images/logement.png);
+	height: 427px;
+	width: 640px  
+}
+
+.image2 {
+	background-image: url(../images/restauration.png);
+	height: 427px;
+	width: 640px
+}
+
+.image3 {
+	background-image: url(../images/auberge.png);
+	height: 427px;
+	width: 640px;
+
+}
+.ancrebouton {
+	background-color: var(--noir);
+}
+
+.colfoot {
+	display: flex;
+}
+
+.afsame {
+	display: flex;
+}
+
+/*FIN PARTIE GWENDAL*/
+
+
+.articlebloc:first-child{
+	margin-left: 0;
+}
+
+.articlebloc:last-child{
+	margin-right: 0;
+}
+
+ /* cecile*/
+.image{
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.image .date{
+	position: absolute;
+}
+
+.date{
+	color: var(--blanc);
+	position: relative;
+
+}
+
+.textebloc{
+	background-color: var(--blanc);
+	padding-bottom: 40px;
+	margin-left: 0;
+
+}
 
 
 /* BLOCS BLEUS */
@@ -233,12 +217,5 @@ max-height:15em;
 .articlebloc {
 	margin: 20px;
 	justify-content: center;
-}
-
-
-
-
-
-
 }
 
