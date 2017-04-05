@@ -44,3 +44,25 @@ h3 {
 	display: flex;
 	justify-content: space-between;
 }
+
+.texteblocB {
+	position: relative;
+	top: -3px;
+	margin: 0;
+	padding: 10px;
+	background-color: var(--bleu);
+	text-align: center;
+}
+
+.articlebloc:first-child{
+	margin-left: 0;
+}
+
+.articlebloc:last-child{
+	margin-right: 0;
+}
+
+.articlebloc {
+	margin: 20px;
+	justify-content: center;
+}
