@@ -166,7 +166,7 @@ h3 {
  /* cecile*/
 .image{
 	display: flex;
-	margin-bottom: 40px;
+	
 }
 
 .image .date{
@@ -181,7 +181,7 @@ h3 {
 
 .textebloc{
 	background-color: var(--blanc);
-	padding-bottom: 40px;
+	/*padding-bottom: 40px;*/
 	margin-left: 0;
 
 }
@@ -213,6 +213,53 @@ h3 {
 	margin: 20px;
 	justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -346,11 +393,25 @@ h3 {
 /*DEBUT PARTIE CECILE*/
 
 
+section{
+	padding-bottom: 60px;
+}
 
+.article{
+	padding-left: 25px;
+	margin:0;
 
+	
+}
 
-
-
+h5{
+	font-size: 1.2vw;
+	font-weight: 900;
+	padding-left: 25px;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
 
 
 
