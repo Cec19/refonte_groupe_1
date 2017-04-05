@@ -43,7 +43,6 @@ h3 {
 .colonnes {
 	display: flex;
 	justify-content: space-between;
-<<<<<<< HEAD
 }
 
 .blanc {
@@ -55,16 +54,53 @@ h3 {
 }
 
 .image1 {
-	background-image: url(../images/logement.png);  
+	background-image: url(../images/logement.png);
+	height: 427px;
+	width: 640px  
 }
 
 .image2 {
 	background-image: url(../images/restauration.png);
+	height: 427px;
+	width: 640px
 }
 
 .image3 {
 	background-image: url(../images/auberge.png);
+	height: 427px;
+	width: 640px;
+
 }
 .ancrebouton {
+	background-color: var(--noir);
+}
 
+.texteblocB {
+	position: relative;
+	top: -3px;
+	margin: 0;
+	padding: 10px;
+	background-color: var(--bleu);
+	text-align: center;
+}
+
+.articlebloc:first-child{
+	margin-left: 0;
+}
+
+.articlebloc:last-child{
+	margin-right: 0;
+}
+
+.articlebloc {
+	margin: 20px;
+	justify-content: center;
+}
+
+.colfoot {
+	display: flex;
+}
+
+.afsame {
+	display: flex;
 }
