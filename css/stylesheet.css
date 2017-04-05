@@ -109,6 +109,7 @@ h3 {
 
 h4 {
 	font-size: 1.2vw;
+	margin: 10px;
 }
 
 /* FLEXBOX TROIS COLONNES */
@@ -175,7 +176,9 @@ h4 {
 	justify-content: center;
 }
 
-
+.textenoir {
+	color: var(--noir);
+}
 
 
 
@@ -342,13 +345,32 @@ section>footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*PARTIE GWENDAL*/
+
+.bienvenue {
+	color: white;
+	text-align: left;
+	margin: auto;
+}
 .blanc {
 	background-color: white;
+	padding-top: 20px;
 }
 
 .ancre {
 	display: flex;
+	height: 427px;
 }
 
 .image1 {
@@ -384,7 +406,7 @@ section>footer {
 	text-decoration: none;
 	font-size: 2vw;
 	padding-top: 6px;
-	padding-bottom: 10px;
+	padding-bottom: 6px;
 	padding-right: 30px;
 	padding-left: 30px;
 	text-align: center;
@@ -395,20 +417,59 @@ section>footer {
 	cursor: pointer;
 	color: var(--bleu); 
 }
-.colfoot {
-	display: flex;
-}
 
-.afsame {
-	display: flex;
+.article4 {
+	margin-top: -223px;
 }
-
 .texteblocV {
 	position: relative;
 	width: 342px;
 	padding: 10px;
 	background-color: var(--vert);
 	text-align: center;
+	color: white;
+}
+
+.texteblocV a {
+    text-decoration: none;
+    color: white;
+}
+
+.texteblocV:hover {
+	background-color: white;
+	color: var(--bleu);
+	cursor: pointer;
+}
+
+.texteblocV a:hover {
+	background-color: white;
+	color: var(--bleu);
+	cursor: pointer;
+}
+
+.colfoot {
+	display: flex;
+}
+
+.afsame {
+	display: flex;
+	color: white;
+
+}
+
+.afsame p {
+	padding-left: 40px;
+}
+
+.facebook {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 805px;
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 /*FIN PARTIE GWENDAL*/
