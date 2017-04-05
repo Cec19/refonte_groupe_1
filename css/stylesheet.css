@@ -22,6 +22,7 @@ body {
 ul{
 	display: flex;
 	justify-content: space-between;
+	list-style-type: none;
 }
 
 li a{
@@ -109,6 +110,7 @@ h3 {
 
 h4 {
 	font-size: 1.2vw;
+	margin: 10px;
 }
 
 /* FLEXBOX TROIS COLONNES */
@@ -155,28 +157,20 @@ h4 {
 	top: -3px;
 	width: 342px;
 	margin: 0;
-	margin-right: 20px;
+	margin-right: 0px;
 	padding: 10px;
 	background-color: var(--bleu);
 	text-align: center;
 }
 
-/* POUR LES MARGES DES ARTICLES EN BOX */
-.articlebloc:first-child{
-	margin-left: 0;
+.texteblocB>p {
+	color: var(--blanc);
+
 }
 
-.articlebloc:last-child{
-	margin-right: 0;
+.textenoir {
+	color: var(--noir);
 }
-
-.articlebloc {
-	margin: 20px;
-	justify-content: center;
-}
-
-
-
 
 
 
@@ -273,6 +267,19 @@ h4 {
 	font-weight: 300;
 }
 
+.prixB {
+	background-color: var(--bleu);
+	width: 50%;
+	margin: 20px auto 20px auto;
+	padding: 10px;
+	color: var(--noir);
+	text-align: center;
+}
+
+.prixB>p {
+	margin: 0;
+	font-weight: 600;
+}
 
 	/* PETITS RONDS SLIDER PHOTOS */
 .points {
@@ -299,24 +306,33 @@ h4 {
 	cursor: pointer;
 }
 
+	/* LES H3 GAUCHES ET LE DEGRADE*/
+.gauche {
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
 
-	/* LE TEXTE DU FOOTER SECTION LOGEMENT EN BLANC */
-section>footer {
-	color: var(--blanc);
-	font-weight: 300;
+.degrade {
+	width: 100%;
+	height: 10px;
+	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
+	margin-bottom: 40px; 
 }
 
 
 
+.headerpage {
+	background-image: url(../images/header.jpg);
+	background-position: center;
+	width: 100%;
+	height: 300px;
+}
 
 
-
-
-
-
-
-
-
+.headerpage h2 {
+	padding-top: 120px;
+}
 
 
 
@@ -342,13 +358,32 @@ section>footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*PARTIE GWENDAL*/
+
+.bienvenue {
+	color: white;
+	text-align: left;
+	margin: auto;
+}
 .blanc {
 	background-color: white;
+	padding-top: 20px;
 }
 
 .ancre {
 	display: flex;
+	height: 427px;
 }
 
 .image1 {
@@ -384,7 +419,7 @@ section>footer {
 	text-decoration: none;
 	font-size: 2vw;
 	padding-top: 6px;
-	padding-bottom: 10px;
+	padding-bottom: 6px;
 	padding-right: 30px;
 	padding-left: 30px;
 	text-align: center;
@@ -395,21 +430,61 @@ section>footer {
 	cursor: pointer;
 	color: var(--bleu); 
 }
-.colfoot {
-	display: flex;
-}
 
-.afsame {
-	display: flex;
+.article4 {
+	margin-top: -223px;
 }
-
 .texteblocV {
 	position: relative;
 	width: 342px;
 	padding: 10px;
 	background-color: var(--vert);
 	text-align: center;
+	color: white;
 }
+
+.texteblocV a {
+    text-decoration: none;
+    color: white;
+}
+
+.texteblocV:hover {
+	background-color: white;
+	color: var(--bleu);
+	cursor: pointer;
+}
+
+.texteblocV a:hover {
+	background-color: white;
+	color: var(--bleu);
+	cursor: pointer;
+}
+
+.colfoot {
+	display: flex;
+}
+
+.afsame {
+	display: flex;
+	color: white;
+
+}
+
+.afsame p {
+	padding-left: 40px;
+}
+
+.facebook {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 805px;
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 
 /*FIN PARTIE GWENDAL*/
 
