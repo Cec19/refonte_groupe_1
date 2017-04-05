@@ -123,7 +123,7 @@ h3 {
 
 .textebloc{
 	background-color: var(--blanc);
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 	margin-left: 0;
 
 }
@@ -149,7 +149,7 @@ li a{
 
 }
 
-/*menu deroulant qui ne fonctionne pas :( ...je reprends plus tard */
+/*menu deroulant qui ne fonctionne pas :( ...je reprends plus tard - cecile-*/
 
 
 .deroulant ul{
@@ -193,11 +193,9 @@ max-height:15em;
 .articlebloc {
 	margin: 20px;
 	justify-content: center;
-
-<<<<<<< HEAD
 }
 
-=======
+
 /* PARAGRAPHES ET TITRES */
 
 p {
@@ -260,12 +258,6 @@ h3 {
 	justify-content: center;
 }
 
-.image{
-	display: flex;
-	margin:0;
-
-}
 
 
 
-jksqdhjsqhfjkd
