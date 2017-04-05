@@ -107,53 +107,15 @@ h3 {
 	text-align: center;
 }
 
+h4 {
+	font-size: 1.2vw;
+}
+
 /* FLEXBOX TROIS COLONNES */
 .colonnes {
 	display: flex;
 	justify-content: space-between;
 }
-
-/*PARTIE GWENDAL*/
-.blanc {
-	background-color: white;
-}
-
-.ancre {
-	display: flex;
-}
-
-.image1 {
-	background-image: url(../images/logement.png);
-	height: 427px;
-	width: 640px  
-}
-
-.image2 {
-	background-image: url(../images/restauration.png);
-	height: 427px;
-	width: 640px
-}
-
-.image3 {
-	background-image: url(../images/auberge.png);
-	height: 427px;
-	width: 640px;
-
-}
-.ancrebouton {
-	background-color: var(--noir);
-}
-
-.colfoot {
-	display: flex;
-}
-
-.afsame {
-	display: flex;
-}
-
-/*FIN PARTIE GWENDAL*/
-
 
 .articlebloc:first-child{
 	margin-left: 0;
@@ -166,7 +128,6 @@ h3 {
  /* cecile*/
 .image{
 	display: flex;
-	margin-bottom: 40px;
 }
 
 .image .date{
@@ -185,7 +146,6 @@ h3 {
 	margin-left: 0;
 
 }
-
 
 /* BLOCS BLEUS */
 
@@ -213,8 +173,6 @@ h3 {
 	margin: 20px;
 	justify-content: center;
 }
-
-
 
 
 
@@ -298,15 +256,76 @@ section>footer {
 	font-weight: 300;
 }
 
+/*PARTIE GWENDAL*/
+.blanc {
+	background-color: white;
+}
 
+.ancre {
+	display: flex;
+}
 
+.image1 {
+	background-image: url(../images/logement.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 300px;
+}
 
+.image2 {
+	background-image: url(../images/restauration.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 300px;
+}
 
+.image3 {
+	background-image: url(../images/auberge.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 300px;
 
+}
+.ancrebouton {
+	background-color: var(--noir);
+	color: white;
+	text-decoration: none;
+	font-size: 2vw;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+}
 
+.ancrebouton:hover {
+	background-color: white;
+	cursor: pointer;
+	color: var(--bleu); 
+}
+.colfoot {
+	display: flex;
+}
 
+.afsame {
+	display: flex;
+}
 
+.texteblocV {
+	position: relative;
+	width: 342px;
+	padding: 10px;
+	background-color: var(--vert);
+	text-align: center;
+}
 
+/*FIN PARTIE GWENDAL*/
 
 
 
@@ -314,7 +333,6 @@ section>footer {
 
 
 
-/*FIN PARTIE MARINE*/
 
 
 
@@ -327,7 +345,6 @@ section>footer {
 
 
 
-/*DEBUT PARTIE CECILE*/
 
 
 
@@ -388,4 +405,14 @@ section>footer {
 
 
 
-/*FIN PARTIE CECILE*/
+
+
+
+
+
+
+
+
+
+
+
