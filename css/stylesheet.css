@@ -307,14 +307,3 @@ max-height:15em;
 
 }
 
-
-superGroupe1{
-	couleurCheveux : red;
-	pied : petitetgrand;
-}
-
-.regle{
-	display: flex;
-	margin:0;
-
-}
