@@ -40,6 +40,8 @@ h3 {
 	text-align: center;
 }
 
+<<<<<<< HEAD
+=======
 .colonnes {
 	display: flex;
 	justify-content: space-between;
@@ -83,6 +85,7 @@ h3 {
 	background-color: var(--bleu);
 	text-align: center;
 }
+>>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
 
 .articlebloc:first-child{
 	margin-left: 0;
@@ -92,9 +95,78 @@ h3 {
 	margin-right: 0;
 }
 
+<<<<<<< HEAD
+.image{
+	display: flex;
+	margin:0;
+}
+
+/* page actus */
+
+/* nav */
+
+ul{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+li a{
+	list-style: none;
+	color: white;
+	text-decoration: none;
+	
+	
+
+}
+
+/*menu deroulant qui ne fonctionne pas :( ...je reprends plus tard */
+
+
+.deroulant ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+.deroulant li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+.deroulant ul li{
+display:inherit;
+border-radius:0;
+}
+.deroulant ul li:hover{
+border-radius:0;
+}
+.deroulant ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+.deroulant ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+.deroulant li:hover ul{
+max-height:15em;
+}
+
+{
+
+=======
 .articlebloc {
 	margin: 20px;
 	justify-content: center;
+<<<<<<< HEAD
 }
 
 .colfoot {
@@ -103,4 +175,7 @@ h3 {
 
 .afsame {
 	display: flex;
+=======
+>>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
+>>>>>>> 758a262f4979b8ad4d308af334c301f54813a9ef
 }
