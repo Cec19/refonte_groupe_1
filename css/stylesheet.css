@@ -50,4 +50,14 @@ article {
 	justify-content: space-between;
 }
 
-/*tagada tsoin tsoin*/
+.blanc {
+	background-color: white;
+}
+
+.ancre {
+	display: flex;
+}
+
+.ancrebouton {
+	
+}
