@@ -14,76 +14,6 @@ body {
 	background-color: var(--noir);
 }
 
-p {
-	font-size: 1vw;
-	font-weight: 400;
-}
-
-h1 {
-	font-size: 4vw;
-	color: var(--blanc);
-	font-weight: 900;
-	text-align: center;
-}
-
-h2 {
-	font-size: 3vw;
-	color: var(--blanc);
-	font-weight: 900;
-	text-align: center;
-}
-
-h3 {
-	font-size: 2vw;
-	color: var(--blanc);
-	font-weight: 700;
-	text-align: center;
-}
-
-<<<<<<< HEAD
-/* FLEXBOX EN COLONNES */
-
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 758a262f4979b8ad4d308af334c301f54813a9ef
-.colonnes {
-	display: flex;
-	justify-content: space-between;
-}
-
-
-/* BLOCS BLEUS */
-
-.texteblocB {
-	position: relative;
-	top: -3px;
-	width: 342px;
-	margin: 0;
-	margin-right: 20px;
-	padding: 10px;
-	background-color: var(--bleu);
-	text-align: center;
-}
->>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
-
-/* POUR LES MARGES DES ARTICLES EN BOX */
-.articlebloc:first-child{
-	margin-left: 0;
-}
-
-.articlebloc:last-child{
-	margin-right: 0;
-}
-
-<<<<<<< HEAD
-.image{
-	display: flex;
-	margin:0;
-}
-
-/* page actus */
-
 /* nav */
 
 ul{
@@ -141,11 +71,69 @@ transition: .8s all .3s;
 max-height:15em;
 }
 
-{
+/* PARAGRAPHES ET TITRES */
 
-=======
+p {
+	font-size: 1vw;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 4vw;
+	color: var(--blanc);
+	font-weight: 900;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3vw;
+	color: var(--blanc);
+	font-weight: 900;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2vw;
+	color: var(--blanc);
+	font-weight: 700;
+	text-align: center;
+}
+
+/* FLEXBOX EN COLONNES */
+.colonnes {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* BLOCS BLEUS */
+
+.texteblocB {
+	position: relative;
+	top: -3px;
+	width: 342px;
+	margin: 0;
+	margin-right: 20px;
+	padding: 10px;
+	background-color: var(--bleu);
+	text-align: center;
+}
+
+/* POUR LES MARGES DES ARTICLES EN BOX */
+.articlebloc:first-child{
+	margin-left: 0;
+}
+
+.articlebloc:last-child{
+	margin-right: 0;
+}
+
 .articlebloc {
 	margin: 20px;
 	justify-content: center;
->>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
+}
+
+.image{
+	display: flex;
+	margin:0;
 }
