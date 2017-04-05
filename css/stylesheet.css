@@ -40,8 +40,14 @@ h3 {
 	text-align: center;
 }
 
+article {
+	margin: 0;
+	padding: 10px;
+}
 
 .colonnes {
 	display: flex;
 	justify-content: space-between;
 }
+
+/*tagada tsoin tsoin*/
