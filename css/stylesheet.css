@@ -507,28 +507,58 @@ h5{
 	padding-bottom: 20px;
 }
 
+.mobili {
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+
+
+.boutons{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
 
 
 
+}
+
+.boutons a{
+	text-decoration: none;
+	color: var(--blanc);
+	margin: 0;	
+}
 
 
 
+.boutondroit{
+	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+	
+.boutongauche{
+	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+	
+.boutondroit:before{
 
+	font-family:  FontAwesome, sans-serif;
+	content: "\f0d9";
+}
 
+.boutongauche:after{
+	font-family: FontAwesome, sans-serif;
+	content: "\f04e";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
