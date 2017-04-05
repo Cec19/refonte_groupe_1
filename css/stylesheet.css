@@ -105,7 +105,7 @@ h3 {
 	margin-right: 0;
 }
 
-
+ /* cecile*/
 .image{
 	display: flex;
 	margin-bottom: 40px;
@@ -206,27 +206,6 @@ max-height:15em;
 	justify-content: space-between;
 }
 
-.image{
-	display: flex;
-	margin-bottom: 40px;
-}
-
-.image .date{
-	position: absolute;
-}
-
-.date{
-	color: var(--blanc);
-	position: relative;
-
-}
-
-.textebloc{
-	background-color: var(--blanc);
-	margin-bottom: 40px;
-	margin-left: 0;
-
-}
 
 
 /* BLOCS BLEUS */
@@ -259,9 +238,7 @@ max-height:15em;
 
 
 
-.image{
-	display: flex;
-	margin:0;
+
 
 }
 
