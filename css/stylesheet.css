@@ -40,14 +40,10 @@ h3 {
 	text-align: center;
 }
 
-article {
-	margin: 0;
-	padding: 10px;
-}
-
 .colonnes {
 	display: flex;
 	justify-content: space-between;
+<<<<<<< HEAD
 }
 
 .blanc {
@@ -58,6 +54,17 @@ article {
 	display: flex;
 }
 
+.image1 {
+	background-image: url(../images/logement.png);  
+}
+
+.image2 {
+	background-image: url(../images/restauration.png);
+}
+
+.image3 {
+	background-image: url(../images/auberge.png);
+}
 .ancrebouton {
-	
+
 }
