@@ -334,6 +334,11 @@ h4 {
 	padding-top: 120px;
 }
 
+	/* TEXTE BLANC */
+.texteblanc {
+	color: var(--blanc);
+	font-weight: 300;
+}
 
 
 
