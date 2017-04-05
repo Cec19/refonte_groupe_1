@@ -4,13 +4,14 @@
 }
 
 body {
-	margin: 0;
-	font-family: 'Lato', sans-serif;
-	/* VARIABLES */
+		/* VARIABLES */
 	--noir : #262626;
 	--bleu : #12d1dd;
 	--vert : #76be14;
 	--blanc: #ffffff;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	background-color: var(--noir);
 }
 
 p {
@@ -37,8 +38,4 @@ h3 {
 	color: var(--blanc);
 	font-weight: 700;
 	text-align: center;
-}
-
-.noir {
-	background-color: var(--noir);
 }
