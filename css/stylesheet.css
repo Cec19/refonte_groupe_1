@@ -22,6 +22,7 @@ body {
 ul{
 	display: flex;
 	justify-content: space-between;
+	list-style-type: none;
 }
 
 li a{
@@ -155,26 +156,16 @@ h4 {
 	top: -3px;
 	width: 342px;
 	margin: 0;
-	margin-right: 20px;
+	margin-right: 0px;
 	padding: 10px;
 	background-color: var(--bleu);
 	text-align: center;
 }
 
-/* POUR LES MARGES DES ARTICLES EN BOX */
-.articlebloc:first-child{
-	margin-left: 0;
-}
+.texteblocB>p {
+	color: var(--blanc);
 
-.articlebloc:last-child{
-	margin-right: 0;
 }
-
-.articlebloc {
-	margin: 20px;
-	justify-content: center;
-}
-
 
 
 
@@ -273,6 +264,19 @@ h4 {
 	font-weight: 300;
 }
 
+.prixB {
+	background-color: var(--bleu);
+	width: 50%;
+	margin: 20px auto 20px auto;
+	padding: 10px;
+	color: var(--noir);
+	text-align: center;
+}
+
+.prixB>p {
+	margin: 0;
+	font-weight: 600;
+}
 
 	/* PETITS RONDS SLIDER PHOTOS */
 .points {
@@ -299,24 +303,33 @@ h4 {
 	cursor: pointer;
 }
 
+	/* LES H3 GAUCHES ET LE DEGRADE*/
+.gauche {
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
 
-	/* LE TEXTE DU FOOTER SECTION LOGEMENT EN BLANC */
-section>footer {
-	color: var(--blanc);
-	font-weight: 300;
+.degrade {
+	width: 100%;
+	height: 10px;
+	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
+	margin-bottom: 40px; 
 }
 
 
 
+.headerpage {
+	background-image: url(../images/header.jpg);
+	background-position: center;
+	width: 100%;
+	height: 300px;
+}
 
 
-
-
-
-
-
-
-
+.headerpage h2 {
+	padding-top: 120px;
+}
 
 
 
@@ -410,6 +423,7 @@ section>footer {
 	background-color: var(--vert);
 	text-align: center;
 }
+
 
 /*FIN PARTIE GWENDAL*/
 
