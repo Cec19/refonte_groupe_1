@@ -42,7 +42,7 @@ h3 {
 }
 
 /* page actus */
-
+ 
 
 /* nav */
 
@@ -201,6 +201,13 @@ max-height:15em;
 }
 
 .image{
+	display: flex;
+	margin:0;
+
+}
+
+
+.regle{
 	display: flex;
 	margin:0;
 
