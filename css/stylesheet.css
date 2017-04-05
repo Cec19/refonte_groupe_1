@@ -255,64 +255,48 @@ h3 {
 
 /*DEBUT PARTIE MARINE*/
 
+	/* BLOC PRIX DANS PAGE PRESTA */
+.prix {
+	background-color: var(--noir);
+	padding: 10px;
+	width: 50%;
+	margin: 0 auto 20px auto;
+	color: var(--blanc);
+	font-weight: 300;
+}
 
 
+	/* PETITS RONDS SLIDER PHOTOS */
+.points {
+	display: flex;
+	justify-content: center;
+}
+
+.cercle{
+	border: 2px solid var(--noir);
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	margin : 5px;
+	transition: background .2s ease-in;
+}
+
+.cercle:first-child {
+	background-color: var(--noir);
+}
+
+.cercle:hover {
+	background-color: var(--noir);
+	transition: background .2s ease-in;
+	cursor: pointer;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	/* LE TEXTE DU FOOTER SECTION LOGEMENT EN BLANC */
+section>footer {
+	color: var(--blanc);
+	font-weight: 300;
+}
 
 
 
