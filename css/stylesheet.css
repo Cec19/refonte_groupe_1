@@ -40,12 +40,32 @@ h3 {
 	text-align: center;
 }
 
-
+<<<<<<< HEAD
+=======
 .colonnes {
 	display: flex;
 	justify-content: space-between;
 }
 
+.texteblocB {
+	position: relative;
+	top: -3px;
+	margin: 0;
+	padding: 10px;
+	background-color: var(--bleu);
+	text-align: center;
+}
+>>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
+
+.articlebloc:first-child{
+	margin-left: 0;
+}
+
+.articlebloc:last-child{
+	margin-right: 0;
+}
+
+<<<<<<< HEAD
 .image{
 	display: flex;
 	margin:0;
@@ -112,4 +132,9 @@ max-height:15em;
 
 {
 
+=======
+.articlebloc {
+	margin: 20px;
+	justify-content: center;
+>>>>>>> 821b4e2b2d7850caab838e98ed4b73e79093f706
 }
