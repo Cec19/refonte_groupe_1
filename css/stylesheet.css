@@ -878,8 +878,10 @@ span{
 	margin: 0;
 }
 
-.texteblanc, .add{
+.margecontact {
 	padding-top: 150px;
+	color: var(--blanc);
+	font-weight: 300;
 
 }
 
