@@ -373,11 +373,45 @@ h4 {
 
 /*PARTIE GWENDAL*/
 
+.headerpageAcceuil {
+	background-image: url(../images/header.jpg);
+	background-position: center;
+	width: 100%;
+	height: 600px;
+}
+
+
+.headerpageAcceuil h1 {
+	padding-top: 180px;
+	font-size: 4vw;
+	margin-bottom: 30px;
+}
+
+.headerpageAcceuil h2 {
+	font-size: 4vw;
+	margin-top: 0;
+}
+
 .bienvenue {
 	color: white;
 	text-align: left;
-	margin: auto;
+	margin-left: 390px;
+	position: relative;
 }
+
+.bienvenue:before {
+	color: var(--noir);
+	background-color: var(--vert);
+	font-family: "FontAwesome";
+	content: "\f015";
+	font-size: 4vw;
+	border-radius: 60px;
+	position: absolute;
+	right: 830px;
+	padding: 10px;
+	top: -10px;
+}
+
 .blanc {
 	background-color: white;
 	padding-top: 20px;
@@ -436,7 +470,7 @@ h4 {
 .article4 {
 	margin-top: -223px;
 }
-.texteblocV {
+.texteblocVAcceuil {
 	position: relative;
 	width: 342px;
 	padding: 10px;
@@ -445,18 +479,44 @@ h4 {
 	color: white;
 }
 
-.texteblocV a {
+.texteblocVAcceuil a {
     text-decoration: none;
     color: white;
 }
 
-.texteblocV:hover {
+.texteblocVAcceuil:hover {
 	background-color: white;
 	color: var(--bleu);
 	cursor: pointer;
 }
 
-.texteblocV a:hover {
+.texteblocVAcceuil a:hover {
+	background-color: white;
+	color: var(--bleu);
+	cursor: pointer;
+}
+
+.texteblocBAcceuil {
+	position: relative;
+	width: 342px;
+	padding: 10px;
+	background-color: var(--bleu);
+	text-align: center;
+	color: white;
+}
+
+.texteblocBAcceuil a {
+    text-decoration: none;
+    color: white;
+}
+
+.texteblocBAcceuil:hover {
+	background-color: white;
+	color: var(--bleu);
+	cursor: pointer;
+}
+
+.texteblocBAcceuil a:hover {
 	background-color: white;
 	color: var(--bleu);
 	cursor: pointer;
