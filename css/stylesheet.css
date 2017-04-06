@@ -793,7 +793,7 @@ textarea{
 
 
 
-  }
+  
 
 /*FIN GOUROU */
 
@@ -991,7 +991,10 @@ iframe{
 
 
 /*FIN CECILE*/
-}
+}/*fin media queries >900 <1200*/
+
+
+
 
 
 
@@ -1046,9 +1049,7 @@ body{
 
 
 /*FIN CECILE*/
-}
-
-
+}/*fin medias 720/991*/
 
 
 
@@ -1075,7 +1076,7 @@ body{
 
 
 
-{  
+
 
 /*FIN GOUROU */
 
@@ -1098,7 +1099,7 @@ body{
 
 
 /*FIN CECILE*/
-}
+}/*fin media 544/767*/
 
 
 
@@ -1147,4 +1148,4 @@ body{
 
 
 /*FIN CECILE*/
-}
+}/*fin media <543*/
