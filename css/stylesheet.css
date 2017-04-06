@@ -917,6 +917,7 @@ textarea{
 
 
 
+
 }
 
 
@@ -924,6 +925,8 @@ textarea{
 	background: var(--blanc);
 	color: var(--bleu);
 	padding: 0;
+	cursor: crosshair;
+
 }
 
 
