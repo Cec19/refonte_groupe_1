@@ -510,9 +510,17 @@ h4 {
 	color: var(--bleu); 
 }
 
+.image {
+	box-shadow: 5px 3px 10px black;
+}
 .article4 {
 	margin-top: -223px;
 }
+
+.article4 .image {
+	width: 362px;
+}
+
 .texteblocVAcceuil {
 	position: relative;
 	width: 342px;
@@ -520,6 +528,7 @@ h4 {
 	background-color: var(--vert);
 	text-align: center;
 	color: white;
+	box-shadow: 5px 3px 10px black;
 }
 
 .texteblocVAcceuil a {
@@ -546,6 +555,7 @@ h4 {
 	background-color: var(--bleu);
 	text-align: center;
 	color: white;
+	box-shadow: 5px 3px 10px black;
 }
 
 .texteblocBAcceuil a {
