@@ -133,15 +133,12 @@ h4 {
 
 }
 
-.image .date{
-	position: absolute;
-}
 
-.date{
-	color: var(--blanc);
-	position: relative;
 
-}
+
+
+
+
 
 .textebloc{
 	background-color: var(--blanc);
@@ -564,7 +561,9 @@ footer {
 
 
 /*DEBUT PARTIE CECILE*/
-
+.actu, .headerpage{
+	margin-bottom: 80px;
+}
 
 section{
 	padding-bottom: 60px;
@@ -596,6 +595,7 @@ h5{
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
+	vertical-align: center;
 
 
 
@@ -605,6 +605,8 @@ h5{
 	text-decoration: none;
 	color: var(--blanc);
 	margin: 0;	
+	font-size: 1.5vw;
+
 }
 
 
@@ -616,6 +618,7 @@ h5{
 	padding-bottom: 15px;
 	padding-left: 30px;
 	padding-right: 30px;
+	
 }
 	
 .boutongauche{
@@ -631,23 +634,61 @@ h5{
 
 	font-family:  FontAwesome, sans-serif;
 	content: "\f0d9";
+	margin-right: 10px;
+	font-size: 2vw;
+
 }
 
 .boutongauche:after{
 	font-family: FontAwesome, sans-serif;
-	content: "\f04e";
+	content: "\f0da";
+	margin-left: 10px;
+	font-size: 2vw;
+
+
+}
+
+.boutongauche:hover{
+	color: var(--bleu);
+	background: var(--blanc);
 
 }
 
 
+.boutondroit:hover{
+	color: var(--bleu);
+	background: var(--blanc);
 
+}
 
+.image .dateB{
+	position: absolute;
+}
 
+.image .dateV{
+	position: absolute;
+}
+.dateB{
+	background: var(--bleu);
+	color: var(--blanc);
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 
+}
 
-
-
-
+.dateV{
+	background-color: var(--vert);
+	color: var(--blanc);
+	position: relative;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
 
 
 
