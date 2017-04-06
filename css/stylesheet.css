@@ -43,6 +43,7 @@ li a{
     padding: 0;
     line-height: 1;
 }
+
 .menu a {
     display: block;
     padding:28px;
@@ -51,8 +52,8 @@ li a{
     color: white;
     text-decoration: none;
 }
-.menu a:focus,
-.menu a:hover {
+
+.menu a:focus, .menu a:hover {
     color: white;
     background: #12d1dd;
     text-decoration: none;
@@ -81,6 +82,7 @@ li a{
     padding-left: 0;
     text-align: center;
 }
+
 .nav-item:hover .sub-nav {
     display: block; /* Affiche cette sous-liste au survol de son conteneur */
 }
@@ -94,14 +96,13 @@ li a{
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
-/* FLEXBOX EN COLONNES */
 
+/* FLEXBOX EN COLONNES */
 
 .articlebloc {
 	margin: 20px;
 	justify-content: center;
 }
-
 
 /* PARAGRAPHES ET TITRES */
 
@@ -137,6 +138,7 @@ h4 {
 }
 
 /* FLEXBOX TROIS COLONNES */
+
 .colonnes {
 	display: flex;
 	justify-content: space-between;
@@ -151,23 +153,15 @@ h4 {
 }
 
  /* cecile*/
+
 .image{
 	display: flex;
-
 }
-
-
-
-
-
-
-
 
 .textebloc{
 	background-color: var(--blanc);
 	/*padding-bottom: 40px;*/
 	margin-left: 0;
-
 }
 
 /* BLOCS BLEUS */
@@ -198,89 +192,10 @@ h4 {
 	padding-bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*DEBUT PARTIE MARINE*/
 
 	/* BLOC PRIX DANS PAGE PRESTA */
+
 .prix {
 	background-color: var(--noir);
 	padding: 10px;
@@ -330,6 +245,7 @@ h4 {
 }
 
 	/* LES H3 GAUCHES ET LE DEGRADE*/
+
 .gauche {
 	text-align: left;
 	margin-bottom: 10px;
@@ -359,6 +275,7 @@ h4 {
 }
 
 	/* TEXTE BLANC */
+
 .texteblanc {
 	color: var(--blanc);
 	font-weight: 300;
@@ -375,6 +292,7 @@ h4 {
 }
 
 /* POUR ALIGNER LES BLOCS PRIX DANS RESTO */
+
 .texteblocV:last-child header {
 	margin-bottom: 35px;
 }
@@ -390,79 +308,8 @@ h4 {
 .texteblocV:nth-child(2) .prix {
 	margin-top: 35px;
 }
+
 /*FIN PARTIE MARINE*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*PARTIE GWENDAL*/
 
@@ -542,6 +389,7 @@ h4 {
 	padding-top: 300px;
 
 }
+
 .ancrebouton {
 	background-color: var(--noir);
 	color: white;
@@ -563,6 +411,7 @@ h4 {
 .image {
 	box-shadow: 5px 3px 10px black;
 }
+
 .article4 {
 	margin-top: -223px;
 }
@@ -649,81 +498,10 @@ footer {
 	padding-bottom: 40px;
 }
 
-
 /*FIN PARTIE GWENDAL*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*DEBUT PARTIE CECILE*/
+
 .actu, .headerpage{
 	margin-bottom: 80px;
 }
@@ -735,8 +513,6 @@ section{
 .article{
 	padding-left: 25px;
 	margin:0;
-
-	
 }
 
 h5{
@@ -759,9 +535,6 @@ h5{
 	justify-content: space-between;
 	margin: auto;
 	vertical-align: center;
-
-
-
 }
 
 .boutons a{
@@ -769,10 +542,7 @@ h5{
 	color: var(--blanc);
 	margin: 0;	
 	font-size: 1.5vw;
-
 }
-
-
 
 .boutondroit{
 	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
@@ -782,7 +552,6 @@ h5{
 	padding-left: 40px;
 	padding-right: 30px;
 	position: relative;
-	
 }
 	
 .boutongauche{
@@ -803,7 +572,6 @@ h5{
 	font-size: 2vw;
 	position: absolute;
 	left: 20px;
-
 }
 
 .boutongauche:after{
@@ -812,20 +580,16 @@ h5{
 	margin-left: 10px;
 	font-size: 2vw;
 	position: absolute;
-
 }
 
 .boutongauche:hover{
 	color: var(--bleu);
 	background: var(--blanc);
-
 }
-
 
 .boutondroit:hover{
 	color: var(--bleu);
 	background: var(--blanc);
-
 }
 
 .image .dateB{
@@ -835,6 +599,7 @@ h5{
 .image .dateV{
 	position: absolute;
 }
+
 .dateB{
 	background: var(--bleu);
 	color: var(--blanc);
@@ -845,7 +610,6 @@ h5{
 	padding-right: 30px;
 	margin:0;
 	opacity: 0.7;
-
 }
 
 .dateV{
@@ -866,8 +630,6 @@ h5{
 .titform{
 	color: var(--blanc);
 	font-size: 1.2vw;
-
-
 }
 
 span{
@@ -886,7 +648,6 @@ span{
 	padding-top: 150px;
 	color: var(--blanc);
 	font-weight: 300;
-
 }
 
 .adresse, .tel{
@@ -902,7 +663,6 @@ input{
 	border: none;
 	margin-bottom: 30px;
 	margin-top: 15px;
-	
 }
 
 textarea{
@@ -921,20 +681,11 @@ textarea{
 	color: var(--blanc);
 	font-size: 1.2vw;
 	margin-bottom: 80px;
-
-
-
-
 }
-
 
 .boutenv:hover{
 	background: var(--blanc);
 	color: var(--bleu);
 	padding: 0;
 	cursor: crosshair;
-
 }
-
-
-
