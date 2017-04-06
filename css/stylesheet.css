@@ -779,8 +779,9 @@ h5{
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 30px;
+	padding-left: 40px;
 	padding-right: 30px;
+	position: relative;
 	
 }
 	
@@ -790,7 +791,8 @@ h5{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 30px;
-	padding-right: 30px;
+	padding-right: 40px;
+	position: relative;
 }
 	
 .boutondroit:before{
@@ -799,6 +801,8 @@ h5{
 	content: "\f0d9";
 	margin-right: 10px;
 	font-size: 2vw;
+	position: absolute;
+	left: 20px;
 
 }
 
@@ -807,7 +811,7 @@ h5{
 	content: "\f0da";
 	margin-left: 10px;
 	font-size: 2vw;
-
+	position: absolute;
 
 }
 
