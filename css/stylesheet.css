@@ -387,7 +387,6 @@ h4 {
 	width: 640px;
 	text-align: center;
 	padding-top: 300px;
-
 }
 
 .ancrebouton {
@@ -704,8 +703,32 @@ textarea{
     padding-left: 500px;
 }
 
+.image1 {
+	background-image: url(../images/logement.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 300px;
+}
 
+.image2 {
+	background-image: url(../images/restauration.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 300px;
+}
 
+.image3 {
+	background-image: url(../images/auberge.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 300px;
+}
 
 
 
@@ -770,7 +793,7 @@ textarea{
 
 
 
-
+  }
 
 /*FIN GOUROU */
 
@@ -995,7 +1018,7 @@ p{
 
 
 
-
+{  
 
 /*FIN GOUROU */
 
@@ -1047,7 +1070,7 @@ p{
 
 
 
-
+{  
 
 /*FIN GOUROU */
 
