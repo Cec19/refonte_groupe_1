@@ -698,7 +698,11 @@ textarea{
 /* PETITS ORDIS */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 /* PAGE ACCUEIL GWENDAL */
-
+.facebook {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 500px;
+}
 
 
 
@@ -781,35 +785,60 @@ textarea{
 
 
 /* PAGE PRESTATIONS MARINE */
+.container {
+	width: 800px;
+	margin: auto;
+}
 
+.menu a {
+    display: block;
+    padding:28px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    text-decoration: none;
+}
 
+.menu a:focus, .menu a:hover {
+    color: white;
+    background: #12d1dd;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+a.active {
+    color: white;
+    background: #12d1dd;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.texteblocB {
+	position: relative;
+	top: -3px;
+	width: 220px;
+	margin: 0;
+	margin-right: 0px;
+	padding: 10px;
+	background-color: var(--bleu);
+	text-align: center;
+}
 
+.articlebloc>img {
+	width: 100%;
+	height: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.texteblocV {
+	position: relative;
+	width: 220px;
+	padding: 10px;
+	background-color: var(--vert);
+	text-align: center;
+	color: white;
+}
 
 
 
@@ -933,7 +962,7 @@ textarea{
 
 
 
-/*FIN CECILE
+/*FIN CECILE*/
 }
 
 
@@ -986,7 +1015,7 @@ textarea{
 
 
 
-/*FIN CECILE
+/*FIN CECILE*/
 }
 
 
@@ -1038,7 +1067,7 @@ textarea{
 
 
 
-/*FIN CECILE
+/*FIN CECILE*/
 }
 
 
@@ -1087,5 +1116,5 @@ textarea{
 
 
 
-/*FIN CECILE
+/*FIN CECILE*/
 }
