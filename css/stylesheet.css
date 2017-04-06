@@ -31,46 +31,69 @@ li a{
 	text-decoration: none;
 }
 
-/*menu deroulant qui ne fonctionne pas :( ...je reprends plus tard - cecile-*/
+/* TEST NAV MARINE */
 
-
-.deroulant ul{
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
+.navbar {
+	width: 100%;
+	height : 30px;
 }
-.deroulant li{
-display:inline-block;
-position:relative;
-border-radius:8px 8px 0 0;
+.menu {
+    list-style: none none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
 }
-.deroulant ul li{
-display:inherit;
-border-radius:0;
+.menu a {
+    display: block;
+    padding:28px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    text-decoration: none;
 }
-.deroulant ul li:hover{
-border-radius:0;
-}
-.deroulant ul li:last-child{
-border-radius:0 0 8px 8px;
-}
-.deroulant ul{
-position:absolute;
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
+.menu a:focus,
+.menu a:hover {
+    color: white;
+    background: #12d1dd;
+    text-decoration: none;
 }
 
-.deroulant li:hover ul{
-max-height:15em;
+.active {
+    color: white;
+    background: #12d1dd;
+    text-decoration: none;
 }
 
+.nav-item {
+    float: left; /* Pour que les liens s’affichent horizontalement */
+    position: relative; /* Crée un contexte de positionnement pour les sous-listes */
+    list-style-type: none;
+}
+.sub-nav {
+    display: none; /* Masque la sous-liste */
+    position: absolute; /* Evite que la dimension du conteneur ne change quand la sous-liste est affichée */
+    left: 0; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur */
+    top: 74px; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur, on le positionne explicitement en bas du conteneur */
+    white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
+    background-color: var(--noir); /* FIX IE7 : évite que la sous-liste ne disparaisse au moment où le curseur arrive au-dessus */
+    margin-top: -2px; /* Pour que le sous-menu recouvre son parent, facilitant le passage de la souris de l’un à l’autre */
+    width:100%;
+    padding-left: 0;
+    text-align: center;
+}
+.nav-item:hover .sub-nav {
+    display: block; /* Affiche cette sous-liste au survol de son conteneur */
+}
+
+.sub-nav a:hover {
+    background:none;
+    color : #76be14;
+}
+
+.sub-nav-item a{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 /* FLEXBOX EN COLONNES */
 
 
@@ -326,12 +349,12 @@ h4 {
 	background-image: url(../images/header.jpg);
 	background-position: center;
 	width: 100%;
-	height: 300px;
+	height: 310px;
 }
 
 
 .headerpage h2 {
-	padding-top: 120px;
+	padding-top: 135px;
 }
 
 	/* TEXTE BLANC */
@@ -339,6 +362,32 @@ h4 {
 	color: var(--blanc);
 	font-weight: 300;
 
+}
+
+.texteblocV {
+	position: relative;
+	width: 342px;
+	padding: 10px;
+	background-color: var(--vert);
+	text-align: center;
+	color: white;
+}
+
+/* POUR ALIGNER LES BLOCS PRIX DANS RESTO */
+.texteblocV:last-child header {
+	margin-bottom: 35px;
+}
+
+.texteblocV:nth-child(2) header {
+	margin-bottom: 35px;
+}
+
+.texteblocV:last-child .prix {
+	margin-top: 35px;
+}
+
+.texteblocV:nth-child(2) .prix {
+	margin-top: 35px;
 }
 /*FIN PARTIE MARINE*/
 
