@@ -343,17 +343,6 @@ h4 {
 	color: var(--blanc);
 	font-weight: 300;
 }
-
-.texteblocB header{
-	display: block;
-	padding-bottom: 20px;
-	margin-bottom: 40px;
-}
-
-.texteblocB header:first-child{
-	display: block;
-	padding-bottom: 0px;
-}
 /*FIN PARTIE MARINE*/
 
 
