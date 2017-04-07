@@ -1366,9 +1366,9 @@ h4 {
 }
 
 
-	/*----------------- TEST MENU TOOGLE ---------------------- 
+	/*----------------- TEST MENU TOOGLE ---------------------- */
 
-.buttonmenu {
+#buttonmenu {
   height:75px;
   width:150px;
   position:relative;
@@ -1435,7 +1435,6 @@ h4 {
 	display: none;
 }
 
-*/
 
 /* FIN MARINE */
 
