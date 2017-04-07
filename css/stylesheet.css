@@ -1063,9 +1063,135 @@ h5{
 
 
 
+h3 {
+	font-size: 30px;
+}
+.headerpageAcceuil h1 {
+    padding-top: 140px;
+}
+
+.headerpageAcceuil {
+    height: 400px;
+}
+
+.bienvenue {
+    font-size: 16px;
+}
+
+.bienvenue:before {
+	right: 600px;
+}
+
+.ancre {
+    height: 228px;
+}
+
+.image1 {
+	background-image: url(../images/logementPO.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 160px;
+}
+
+.image2 {
+	background-image: url(../images/restaurationPO.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 160px;
+}
+
+.image3 {
+	background-image: url(../images/aubergePO.png);
+	background-repeat: no-repeat;
+	height: 427px;
+	width: 640px;
+	text-align: center;
+	padding-top: 160px;
+}
+.article1 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article2 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.article3 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article4 {
+	margin-top: 0px;
+	margin-left: 119px;
+	margin-right: auto;
+}
+
+.partenaires {
+	text-align: center;
+}
+
+.facebook {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 250px;
+}
+
+.logo {
+	height: 70px;
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*FIN GOUROU */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* PAGE PRESTATIONS MARINE */
@@ -1230,8 +1356,35 @@ span{
 
 /* PAGE PRESTATIONS MARINE */
 
+p{
+	font-size: 14px;
+}
 
 
+h4 {
+	font-size: 16px;
+	margin: 10px;
+}
+
+.colonnes {
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*----------------- TEST MENU TOOGLE ---------------------- */
 
 
 
