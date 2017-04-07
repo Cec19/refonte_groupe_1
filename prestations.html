@@ -1,205 +1,242 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
+<head>
 
-		<!--LES BALISES META-->
-		<meta charset="UTF-8">
-		<title>AFSAM le Foyer GRAY</title>
-		<meta name="Description" content="Les prestations proposée par Le foyer de Gray sont la location de chambres et de studios, ainsi qu'un service de restauration et une auberge de jeunesse.">
-		<meta name="Keywords" content="Prestations, Prestation, Gray, Foyer, Auberge, Chambre, Restauration, jeunes, voyageurs.">
-		<meta name="Revisit-After" content="15 days">
-		<meta name="Robots" content="all">
-		<meta name="Geography" content="Gray, France, 70100">
+	<!--LES BALISES META-->
+	<meta charset="UTF-8">
+	<title>AFSAM le Foyer GRAY</title>
+	<meta name="Description" content="Les prestations proposée par Le foyer de Gray sont la location de chambres et de studios, ainsi qu'un service de restauration et une auberge de jeunesse.">
+	<meta name="Keywords" content="Prestations, Prestation, Gray, Foyer, Auberge, Chambre, Restauration, jeunes, voyageurs.">
+	<meta name="Revisit-After" content="15 days">
+	<meta name="Robots" content="all">
+	<meta name="Geography" content="Gray, France, 70100">
 
-		<!-- META POUR MEDIA QUERRIES -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- META POUR MEDIA QUERRIES -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-		<!--LE FAVICON-->
-		<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="images/favicon/favicon.png" type="image/png">
-		<link rel="icon" sizes="32x32" href="images/favicon/favicon-32.png" type="image/png">
-		<link rel="icon" sizes="64x64" href="images/favicon/favicon-64.png" type="image/png">
-		<link rel="icon" sizes="96x96" href="images/favicon/favicon-96.png" type="image/png">
-		<link rel="icon" sizes="196x196" href="images/favicon/favicon-196.png" type="image/png">
-		<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
-		<meta name="msapplication-TileImage" content="favicon-144.png">
-		<meta name="msapplication-TileColor" content="#FFFFFF">
-		<link rel="icon" href="images/favicon/animated_favicon.gif" type="image/gif">
+	<!--LE FAVICON-->
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon/favicon.png" type="image/png">
+	<link rel="icon" sizes="32x32" href="images/favicon/favicon-32.png" type="image/png">
+	<link rel="icon" sizes="64x64" href="images/favicon/favicon-64.png" type="image/png">
+	<link rel="icon" sizes="96x96" href="images/favicon/favicon-96.png" type="image/png">
+	<link rel="icon" sizes="196x196" href="images/favicon/favicon-196.png" type="image/png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="favicon-144.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<link rel="icon" href="images/favicon/animated_favicon.gif" type="image/gif">
 
-		<!--TYPO-->
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet"> <!--LATO-->
+	<!--TYPO-->
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet"> <!--LATO-->
 
-		<!--CSS-->
-		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	</head>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
 
-	<body>
+<body>
 
 	<!-- HEADER -->
-		<header>
+	<header>
+
+		<div class="slideMenu">
+
+		<button class="button">menu</button>
 			<nav>
+				<ul>
+					<li><a href="index.html">ACCUEIL</a></li>
+					<li ><a href="prestations.html" class="active">PRESTATIONS</a></li>
+					<li ><a href="actualites.html">ACTUALITES</a></li>
+					<li ><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<div class="menu">
+			<nav class="bignav">
 				<div class="container">
 					<ul class="menu">
 						<li class="nav-item"><a href="index.html">ACCUEIL</a></li>
-							<ul class="deroulant">
-								<li class="nav-item"><a href="prestations.html" class="active">PRESTATIONS</a>
+						<ul class="deroulant">
+							<li class="nav-item"><a href="prestations.html" class="active">PRESTATIONS</a>
 								<ul class="sub-nav">
 									<li class="sub-nav-item"><a href="#logements">Logements</a></li>
 									<li class="sub-nav-item"><a href="#restauration">Restauration</a></li>
 									<li class="sub-nav-item"><a href="#auberge">Auberge</a></li>
 								</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item"><a href="actualites.html">ACTUALITES</a></li>
-						<li class="nav-item"><a href="contact.html">CONTACT</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="headerpage">
-				<div class="container">
-					<h2>Les prestations</h2>
-				</div>
+							</li>
+						</ul>
+				
+					<li class="nav-item"><a href="actualites.html">ACTUALITES</a></li>
+					<li class="nav-item"><a href="contact.html">CONTACT</a></li>
+				</ul>
 			</div>
-		</header>
+		</nav>
+	</div>
 
-		<!--MAIN-->
-		<main>
-			<div class="container">
+	<div class="headerpage">
+		<div class="container">
+			<h2>Les prestations</h2>
+		</div>
+		<button class="button">menu</button>
+	</div>
+</header>
+
+<!--MAIN-->
+<main>
+	<div class="container">
 
 		<!-- LOGEMENTS-->
-				<section>
-					<header>
-						<h3 class="gauche" id="logements">Logements</h3>
-						<div class="degrade"></div>
-					</header>
-					<div class="colonnes">
-						<article class="articlebloc">
-							<img src="images/02_presta_chambresimple.jpg" alt="Photo d'une chambre disponible à la location dans le foyer AFSAME." width="362" height="271">
-							<div class="texteblocB">
-								<div class="points">
-									<div class="cercle"></div>
-									<div class="cercle"></div>
-									<div class="cercle"></div>
-								</div>
-								<p>Le foyer AFSAME peut vous accueillir à partir de 5 nuits consécutives en chambre simple ou en chambre double pour deux personnes.</p>
-								<p class="prix">19€/nuit</p>
-							</div>
-						</article>
-
-						<article class="articlebloc">
-							<img src="images/02_presta_studio.jpg" alt="Photo d'un studio disponible à la location dans le foyer AFSAME." width="362" height="272">
-							<div class="texteblocB">
-								<div class="points">
-									<div class="cercle"></div>
-									<div class="cercle"></div>
-									<div class="cercle"></div>
-								</div>
-								<p>Des studios, de 14 à 26 m2, sont disponibles à la location pour de longs séjours, avec la possibilité d’APL.</p>
-								<p class="prix">A partir de 319€/mois</p>
-							</div>
-						</article>
-
-						<article class="articlebloc">
-							<img src="images/02_presta_chambremensuelle.jpg" alt="Photo d'une chambre disponible à la location mensuelle dans le foyer AFSAME." width="362" height="272">
-							<div class="texteblocB">
-								<div class="points">
-									<div class="cercle"></div>
-									<div class="cercle"></div>
-									<div class="cercle"></div>
-								</div>
-								<p>Des chambres de 14m2 sont également proposées à la location pour de longs séjours, avec la possibilité d’APL.</p>
-								<p class="prix">293€/mois</p>
-							</div>
-						</article>
+		<section>
+			<header>
+				<h3 class="gauche" id="logements">Logements</h3>
+				<div class="degrade"></div>
+			</header>
+			<div class="colonnes">
+				<article class="articlebloc">
+					<img src="images/02_presta_chambresimple.jpg" alt="Photo d'une chambre disponible à la location dans le foyer AFSAME." width="362" height="271">
+					<div class="texteblocB">
+						<div class="points">
+							<div class="cercle"></div>
+							<div class="cercle"></div>
+							<div class="cercle"></div>
+						</div>
+						<p>Le foyer AFSAME peut vous accueillir à partir de 5 nuits consécutives en chambre simple ou en chambre double pour deux personnes.</p>
+						<p class="prix">19€/nuit</p>
 					</div>
-					<footer class="texteblanc">
-						Tous nos logements sont meublés et ont un accès au wifi.
-					</footer>
-				</section>
+				</article>
+
+				<article class="articlebloc">
+					<img src="images/02_presta_studio.jpg" alt="Photo d'un studio disponible à la location dans le foyer AFSAME." width="362" height="272">
+					<div class="texteblocB">
+						<div class="points">
+							<div class="cercle"></div>
+							<div class="cercle"></div>
+							<div class="cercle"></div>
+						</div>
+						<p>Des studios, de 14 à 26 m2, sont disponibles à la location pour de longs séjours, avec la possibilité d’APL.</p>
+						<p class="prix">A partir de 319€/mois</p>
+					</div>
+				</article>
+
+				<article class="articlebloc">
+					<img src="images/02_presta_chambremensuelle.jpg" alt="Photo d'une chambre disponible à la location mensuelle dans le foyer AFSAME." width="362" height="272">
+					<div class="texteblocB">
+						<div class="points">
+							<div class="cercle"></div>
+							<div class="cercle"></div>
+							<div class="cercle"></div>
+						</div>
+						<p>Des chambres de 14m2 sont également proposées à la location pour de longs séjours, avec la possibilité d’APL.</p>
+						<p class="prix">293€/mois</p>
+					</div>
+				</article>
+			</div>
+			<footer class="texteblanc">
+				Tous nos logements sont meublés et ont un accès au wifi.
+			</footer>
+		</section>
 
 		<!-- RESTAURATION -->
-				<section>
-					<header>
-						<h3 class="gauche" id="restauration">Restauration</h3>
-						<div class="degrade"></div>
-					</header>
-					<p class="texteblanc">Ouvert toute l’année aux particuliers, entreprises, artisans, groupes, associations, familles ainsi qu'aux résidents. Du lundi au vendredi, de 12h à 13h15 et le soir, sur réservation, de 19h à 19h30.</p>
+		<section>
+			<header>
+				<h3 class="gauche" id="restauration">Restauration</h3>
+				<div class="degrade"></div>
+			</header>
+			<p class="texteblanc">Ouvert toute l’année aux particuliers, entreprises, artisans, groupes, associations, familles ainsi qu'aux résidents. Du lundi au vendredi, de 12h à 13h15 et le soir, sur réservation, de 19h à 19h30.</p>
 
-					<div class="colonnes">
-						<article class="texteblocV">
-							<header><h4>Formule complet</h4></header>
-							<p>Entrée</p>
-							<p>Plat</p>
-							<p>Fromage</p>
-							<p>Dessert</p>
-							<p class="prix">8,70€</p>
-							<footer>Pain et boisson non compris.</footer>
-						</article>
+			<div class="colonnes">
+				<article class="texteblocV">
+					<header><h4>Formule complet</h4></header>
+					<p>Entrée</p>
+					<p>Plat</p>
+					<p>Fromage</p>
+					<p>Dessert</p>
+					<p class="prix">8,70€</p>
+					<footer>Pain et boisson non compris.</footer>
+				</article>
 
-						<article class="texteblocV">
-							<header><h4>Formule trois</h4></header>
-							<p>Entrée</p>
-							<p>Plat</p>
-							<p>Dessert</p>
-							<p class="prix">7,50€</p>
-							<footer>Pain et boisson non compris.</footer>
-						</article>
+				<article class="texteblocV">
+					<header><h4>Formule trois</h4></header>
+					<p>Entrée</p>
+					<p>Plat</p>
+					<p>Dessert</p>
+					<p class="prix">7,50€</p>
+					<footer>Pain et boisson non compris.</footer>
+				</article>
 
-						<article class="texteblocV">
-							<header><h4>Formule deux</h4></header>
-							<p>Entrée &#38; Plat</p>
-							<p>ou</p>
-							<p>Plat &#38; Dessert</p>
-							<p class="prix">5,90€</p>
-							<footer>Pain et boisson non compris.</footer>
-						</article>
-					</div>
-				</section>
+				<article class="texteblocV">
+					<header><h4>Formule deux</h4></header>
+					<p>Entrée &#38; Plat</p>
+					<p>ou</p>
+					<p>Plat &#38; Dessert</p>
+					<p class="prix">5,90€</p>
+					<footer>Pain et boisson non compris.</footer>
+				</article>
+			</div>
+		</section>
 
 		<!--AUBERGE-->
-				<section>
-					<header>
-						<h3 class="gauche" id="auberge">Auberge</h3>
-						<div class="degrade"></div>
-					</header>
-					<article>
-						<p class="texteblanc">AFSAME Le Foyer accueille  des personnes de « passage » ayant une carte d'affiliation Auberge de jeunesse (obligatoire pour être admis aux conditions FUAJ) à partir de 5 nuits consécutives au sein de notre établissement.</p>
-						<div class="prixB">
-							<p>12€/nuit</p>
-							<p>+ 3€ pour la location des draps</p>
-						</div>
-					</article>
-				</section>
-			</div>
-		</main>
+		<section>
+			<header>
+				<h3 class="gauche" id="auberge">Auberge</h3>
+				<div class="degrade"></div>
+			</header>
+			<article>
+				<p class="texteblanc">AFSAME Le Foyer accueille  des personnes de « passage » ayant une carte d'affiliation Auberge de jeunesse (obligatoire pour être admis aux conditions FUAJ) à partir de 5 nuits consécutives au sein de notre établissement.</p>
+				<div class="prixB">
+					<p>12€/nuit</p>
+					<p>+ 3€ pour la location des draps</p>
+				</div>
+			</article>
+		</section>
+	</div>
+</main>
 
-		<!--FOOTER-->
-		<footer>
-			<div class="degrade"></div>
-				<div class="container">
-					<div class="colfoot">
-						<div class="afsame">
-							<img src="images/logo-blanc.png" height="140pw">
-							<p>AFSAME Le Foyer</br>
-							<span>2 rue André Maginot</br>
-							70100 Gray</br></br>
-							03 84 64 99 20</span></p></br>
-						</div>
-						<div class="facebook">
-							<a href="https://www.facebook.com/Le-Foyer-Afsame-805631292864279/"><img src="images/facebook.png" height="80px"></a>
-						</div>
+<!--FOOTER-->
+<footer>
+	<div class="degrade"></div>
+	<div class="container">
+		<div class="colfoot">
+			<div class="afsame">
+				<img src="images/logo-blanc.png" height="140pw">
+				<p>AFSAME Le Foyer</br>
+					<span>2 rue André Maginot</br>
+						70100 Gray</br></br>
+						03 84 64 99 20</span></p></br>
+					</div>
+					<div class="facebook">
+						<a href="https://www.facebook.com/Le-Foyer-Afsame-805631292864279/"><img src="images/facebook.png" height="80px"></a>
 					</div>
 				</div>
-			</footer>
+			</div>
+		</footer>
 
 	</body>
 
-<script type="text/javascript" src="js/tooglemenu.js"></script>
-</html>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+	<script>
+
+		$( ".button" ).click(function() {
+			if(parseInt($(".slideMenu").css("left")) == -300)  
+				$(".slideMenu").stop().animate({left: "+=300px"}, 500);  
+			if(parseInt($(".slideMenu").css("left")) >= 0)  
+				$(".slideMenu").stop().animate({left: "-=300px"}, 500);
+		});
+
+
+
+	</script>
+
+
+
+
+	</html>
