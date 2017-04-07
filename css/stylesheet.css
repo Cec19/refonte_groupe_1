@@ -511,6 +511,7 @@ section{
 
 .article{
 	padding-left: 25px;
+	padding-right: 25px;
 	margin:0;
 }
 
@@ -519,13 +520,13 @@ h5{
 	font-weight: 900;
 	padding-left: 25px;
 	margin: auto;
-	padding-top: 30px;
-	padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .mobili {
-	padding-bottom: 30px;
-	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-top: 60px;
 }
 
 
@@ -949,7 +950,7 @@ iframe{
 }
 
 
-/*.mobili {
+.mobili {
 	padding-bottom: 20px;
 	padding-top: 30px;
 }
@@ -958,7 +959,7 @@ iframe{
 	padding-bottom: 20px;
 	padding-top: 30px;
 
-}*/
+}
 
 .article{
 	margin-right: 15px;
