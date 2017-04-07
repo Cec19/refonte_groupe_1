@@ -1374,72 +1374,7 @@ h4 {
 
 	/*----------------- TEST MENU TOOGLE ---------------------- */
 
-#buttonmenu {
-  height:75px;
-  width:150px;
-  position:relative;
-  margin:auto;
-  color:var(--bleu);
-  border-radius:15px;
-  top:10%;
-  text-align:center;
-  line-height:75px;
-  font-family: 'Lato', sans-serif;
-  background-color: var(--noir);
-  transition:all .4s;
-  cursor:pointer;
-  display:block;
-  font-weight:bolder;
-  &:hover{
-    line-height:70px;
-    transition:all .4s;
-  }
-}
 
-.testmenu {
-  background-image:inherit;
-  background-attachment:fixed;
-  background-size:cover;
-  height:900px;
-  width:300px;
-  position:fixed;
-  top:0px;
-  left:-300px;
-  -webkit-filter:grayscale(100%) brightness(0.9);
-  border-right:1px solid white;
-  box-sizing:border-box;
-}
-
-.menu {
-  margin:0;
-  padding:0;
-  padding-top:50px;
-}
-
-.nav-item {
-  list-style-type:none;
-  border-bottom:1px solid white;
-  color:white;
-  font-family:verdana, sans-serif;
-  font-size:30px;
-  text-shadow:1px 1px 1px black;
-  line-height:55px;
-  height:55px;
-  display:block;
-  padding-left:15px;
-  transition:all .4s;
-  &:first-child{
-    border-top:1px solid white;
-  }
-  &:hover {
-    background-color:rgba(0, 0, 0, 0.4);
-    transition:all .4s;
-  }
-}
-
-.sub-nav-item {
-	display: none;
-}
 
 
 /* FIN MARINE */
