@@ -924,13 +924,27 @@ iframe{
 }
 
 
+/*.mobili {
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+#travaux{
+	padding-bottom: 20px;
+	padding-top: 30px;
+
+}*/
+
+.article{
+	margin-right: 15px;
+	padding-left: 15px;
+	font-size: 12px;
+}
 
 
-
-
-
-
-
+h5{
+	font-size: 14px;
+}
 
 
 
