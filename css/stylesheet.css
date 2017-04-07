@@ -697,48 +697,75 @@ textarea{
 /* PETITS ORDIS */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 /* PAGE ACCUEIL GWENDAL */
-.facebook {
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 500px;
+
+h3 {
+	font-size: 30px;
+}
+.headerpageAcceuil h1 {
+    padding-top: 140px;
+}
+
+.headerpageAcceuil {
+    height: 400px;
+}
+
+.bienvenue {
+    font-size: 16px;
+}
+
+.bienvenue:before {
+	right: 600px;
+}
+
+.ancre {
+    height: 228px;
 }
 
 .image1 {
-	background-image: url(../images/logement.png);
+	background-image: url(../images/logementPO.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 160px;
 }
 
 .image2 {
-	background-image: url(../images/restauration.png);
+	background-image: url(../images/restaurationPO.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 160px;
 }
 
 .image3 {
-	background-image: url(../images/auberge.png);
+	background-image: url(../images/aubergePO.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 160px;
 }
 
+.article3 {
+	margin-top: 734px;
+    margin-left: -436px;
+}
 
+.article4 {
+	margin-top: -761px;
+}
 
+.blanc {
+	margin-top: 400px
+}
 
-
-
-
-
-
-
+.facebook {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 450px;
+}
 
 
 
@@ -854,6 +881,10 @@ a.active {
 	height: auto;
 }
 
+.articlebloc {
+	background-color: var(--bleu);
+}
+
 .texteblocV {
 	position: relative;
 	width: 220px;
@@ -868,16 +899,10 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
+h4 {
+	font-size: 16px;
+	margin: 10px;
+}
 
 
 
@@ -1044,8 +1069,77 @@ h5{
 
 
 /* PAGE PRESTATIONS MARINE */
+.container {
+	width: 600px;
+	margin: auto;
+}
+
+.menu a {
+    display: block;
+    padding:28px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:focus, .menu a:hover {
+    color: white;
+    background: #12d1dd;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a.active {
+    color: white;
+    background: #12d1dd;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.texteblocB {
+	position: relative;
+	top: -3px;
+	width: 80%;
+	margin: auto;
+	padding: 50px;
+	background-color: var(--bleu);
+	text-align: center;
+}
+
+.articlebloc>img {
+	width: 100%;
+	height: auto;
+}
+
+.articlebloc {
+	background-color: var(--bleu);
+}
+
+.texteblocV {
+	position: relative;
+	width: 220px;
+	padding: 10px;
+	background-color: var(--vert);
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-size: 14px;
+}
 
 
+h4 {
+	font-size: 16px;
+	margin: 10px;
+}
+
+.colonnes {
+	flex-direction: column;
+}
 
 
 
