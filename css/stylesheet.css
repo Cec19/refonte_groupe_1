@@ -768,60 +768,16 @@ h3 {
     padding-left: 450px;
 }
 
+.partenaires {
+	text-align: center;
+}
+
+.logo {
+	height: 80px;
+	width: auto;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 /*FIN GOUROU */
 
@@ -1079,7 +1035,8 @@ h3 {
 }
 
 .bienvenue:before {
-	right: 600px;
+	right: 510px;
+    top: 5px;
 }
 
 .ancre {
@@ -1087,46 +1044,49 @@ h3 {
 }
 
 .image1 {
-	background-image: url(../images/logementPO.png);
+	background-image: url(../images/logementTA.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 160px;
+	padding-top: 140px;
 }
 
 .image2 {
-	background-image: url(../images/restaurationPO.png);
+	background-image: url(../images/restaurationTA.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 160px;
+	padding-top: 140px;
 }
 
 .image3 {
-	background-image: url(../images/aubergePO.png);
+	background-image: url(../images/aubergeTA.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 160px;
+	padding-top: 140px;
 }
 .article1 {
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 5px 3px 10px black;
 }
 
 .article2 {
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 5px 3px 10px black;
 }
 .article3 {
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 5px 3px 10px black;
 }
 
 .article4 {
