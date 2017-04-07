@@ -697,48 +697,75 @@ textarea{
 /* PETITS ORDIS */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 /* PAGE ACCUEIL GWENDAL */
-.facebook {
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 500px;
+
+h3 {
+	font-size: 30px;
+}
+.headerpageAcceuil h1 {
+    padding-top: 140px;
+}
+
+.headerpageAcceuil {
+    height: 400px;
+}
+
+.bienvenue {
+    font-size: 16px;
+}
+
+.bienvenue:before {
+	right: 600px;
+}
+
+.ancre {
+    height: 228px;
 }
 
 .image1 {
-	background-image: url(../images/logement.png);
+	background-image: url(../images/logementPO.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 160px;
 }
 
 .image2 {
-	background-image: url(../images/restauration.png);
+	background-image: url(../images/restaurationPO.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 160px;
 }
 
 .image3 {
-	background-image: url(../images/auberge.png);
+	background-image: url(../images/aubergePO.png);
 	background-repeat: no-repeat;
 	height: 427px;
 	width: 640px;
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 160px;
 }
 
+.article3 {
+	margin-top: 734px;
+    margin-left: -436px;
+}
 
+.article4 {
+	margin-top: -761px;
+}
 
+.blanc {
+	margin-top: 400px
+}
 
-
-
-
-
-
-
+.facebook {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 450px;
+}
 
 
 
