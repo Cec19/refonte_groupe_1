@@ -971,6 +971,7 @@ iframe{
 h5{
 	font-size: 14px;
 }
+/*FIN ACTUS & CONTACT CECILE*/
 
 
 
@@ -1029,8 +1030,6 @@ h5{
 
 
 
-
-/*FIN CECILE*/
 }/*fin media queries >900 <1200*/
 
 
@@ -1149,8 +1148,14 @@ h4 {
 
 /* ACTU ET CONTACT CECILE */
 
+/*.image{
+	display: flex;
+	flex-direction: column;
 
-
+}*/
+.image{
+	width: 30%;
+}
 
 
 
