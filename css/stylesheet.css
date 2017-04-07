@@ -1374,6 +1374,7 @@ h4 {
 }
 
 .slideMenu {
+  display: block;
   background-image: inherit;
   background-attachment: fixed;
   background-size: cover;
