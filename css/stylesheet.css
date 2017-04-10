@@ -418,6 +418,10 @@ h4 {
 	color: var(--bleu); 
 }
 
+.logoancre {
+	display: none;
+}
+
 .image {
 	box-shadow: 5px 3px 10px black;
 }
@@ -733,6 +737,10 @@ h3 {
     height: 228px;
 }
 
+.ancre1 {
+	display: none;
+}
+
 .image1 {
 	background-image: url(../images/logementPO.png);
 	background-repeat: no-repeat;
@@ -1033,6 +1041,7 @@ h5{
 h3 {
 	font-size: 30px;
 }
+
 .headerpageAcceuil h1 {
     padding-top: 140px;
 }
@@ -1052,6 +1061,10 @@ h3 {
 
 .ancre {
     height: 228px;
+}
+
+.ancre1 {
+	display: none;
 }
 
 .image1 {
@@ -1309,21 +1322,55 @@ span{
 @media screen and (min-width: 544px) and (max-width: 767px) {
 /* PAGE ACCUEIL GWENDAL */
 
-.ancre {
+h3 {
+	font-size: 20px;
+}
+
+.headerpageAcceuil h1 {
+    padding-top: 110px;
+}
+
+.headerpageAcceuil {
+    height: 300px;
+}
+
+.bienvenue {
+    font-size: 16px;
+}
+
+.ancre1 {
 	background-color: var(--bleu);
-	height: 100px;
-	font-family: "FontAwesome";
-	content: "\f015";
+	padding-bottom: 0px;
+	margin-top: -40px;
 }
-.image1 {
+
+.logoancre {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ancre {
 	display: none;
 }
 
-.image2 {
+.article1 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 3px 10px black;
+}
+
+.article2 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 3px 10px black;
+}
+.article3 {
 	display: none;
 }
 
-.image3 {
+.article4 {
 	display: none;
 }
 
