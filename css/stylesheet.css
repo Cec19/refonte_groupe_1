@@ -107,7 +107,6 @@ body {
     color : #76be14;
 }
 
-
 /* FLEXBOX EN COLONNES */
 
 .articlebloc {
@@ -270,15 +269,12 @@ h4 {
 	margin-bottom: 40px; 
 }
 
-
-
 .headerpage {
 	background-image: url(../images/header.jpg);
 	background-position: center;
 	width: 100%;
 	height: 310px;
 }
-
 
 .headerpage h2 {
 	padding-top: 135px;
@@ -330,7 +326,6 @@ h4 {
 	width: 100%;
 	height: 600px;
 }
-
 
 .headerpageAcceuil h1 {
 	padding-top: 180px;
@@ -541,7 +536,6 @@ h5 {
 	padding-top: 60px;
 }
 
-
 .boutons {
 	display: flex;
 	justify-content: space-between;
@@ -686,7 +680,6 @@ textarea {
 	padding: 0;
 }
 
-
 .boutenv {
 	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
 	width: 250px;
@@ -703,9 +696,8 @@ textarea {
 }
 
 
-
-
 /*--------------------------------------- MEDIA QUERRIES-------------------------------------------- */
+
 
 /* PETITS ORDIS */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -793,19 +785,7 @@ h3 {
 	width: auto;
 }
 
-
-
 /*FIN GOUROU */
-
-
-
-
-
-
-
-
-
-
 
 /* PAGE PRESTATIONS MARINE */
 .container {
@@ -877,50 +857,13 @@ h4 {
 	margin: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FIN MARINE */
 
-
-
-
-
-
-
 /* ACTU ET CONTACT CECILE */
-
 
 iframe{
 	width:500px;
 }
-
 
 .mobili {
 	padding-bottom: 20px;
@@ -943,97 +886,15 @@ iframe{
 h5{
 	font-size: 14px;
 }
+
 /*FIN ACTUS & CONTACT CECILE*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }/*fin media queries >900 <1200*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* TABLETTES */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
 /* PAGE ACCUEIL GWENDAL */
-
-
-
-
 
 h3 {
 	font-size: 30px;
@@ -1131,51 +992,10 @@ h3 {
 	width: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*FIN GOUROU */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* PAGE PRESTATIONS MARINE */
+
 .container {
 	width: 600px;
 	margin: auto;
@@ -1263,9 +1083,6 @@ h4 {
 	flex-direction: column;
 }
 
-
-
-
 /* FIN MARINE */
 
 /* ACTU ET CONTACT CECILE */
@@ -1313,25 +1130,9 @@ span{
 /*FIN CECILE*/
 }/*fin medias 720/991*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* PORTABLE EN PAYSAGE */
 @media screen and (min-width: 544px) and (max-width: 767px) {
+
 /* PAGE ACCUEIL GWENDAL */
 
 h3 {
@@ -1405,47 +1206,7 @@ h3 {
 	width: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*FIN GOUROU */
-
 
 /* PAGE PRESTATIONS MARINE */
 .container {
@@ -1509,7 +1270,6 @@ h4 {
 .colonnes {
 	flex-direction: column;
 }
-
 
 .menu{
 
@@ -1663,7 +1423,6 @@ nav ul li:hover {
 	background: none;
 }
 
-
 /* FIN MARINE */
 
 /* ACTU ET CONTACT CECILE */
@@ -1711,7 +1470,6 @@ span{
 	margin: 0;
 }
 
-
 h5{
 	font-size: 14px;
 }
@@ -1754,25 +1512,11 @@ h5{
 }/*FIN CECILE*/
 }/*fin media 544/767*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* PORTABLE */
 @media screen and (max-width: 543px) {
+
 /* PAGE ACCUEIL GWENDAL */
+
 .container{
 	width: 300px;
 	margin: auto;
@@ -1871,13 +1615,10 @@ footer {
 	padding-bottom: 20px;
 }
 
-
-
-
 /*FIN GOUROU */
 
-
 /* PAGE PRESTATIONS MARINE */
+
 .texteblocB {
 	position: relative;
 	top: -3px;
@@ -1938,7 +1679,6 @@ h4 {
 .colonnes {
 	flex-direction: column;
 }
-
 
 .menu{
 
@@ -2098,7 +1838,6 @@ nav ul li:hover {
 	margin-bottom: 20px;
 }
 
-
 /* FIN MARINE */
 
 /* ACTU ET CONTACT CECILE */
@@ -2146,7 +1885,6 @@ span{
 	margin: 0;
 }
 
-
 h5{
 	font-size: 14px;
 }
@@ -2189,4 +1927,3 @@ h5{
 
 /*FIN CECILE*/
 }/*fin media <543*/
-
