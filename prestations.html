@@ -236,6 +236,20 @@
 				$(".slideMenu").stop().animate({left: "+=300px"}, 500);  
 			if(parseInt($(".slideMenu").css("left")) >= 0)  
 				$(".slideMenu").stop().animate({left: "-=300px"}, 500);
+
+
+			if( parseInt($(".slideMenu").css("left")) == -300){
+
+
+				$('#openmenu').hide();
+
+
+			}else{
+
+				$('#openmenu').show();
+
+
+			}
 		});
 
 
