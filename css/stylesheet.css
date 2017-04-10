@@ -1525,9 +1525,9 @@ h4 {
   background-image: inherit;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(25, 25, 25, .8);
-  height: 100%;
-  width: 300px;
+  background-color: var(--noir);
+  height: 345px;
+  width: 200px;
   position: fixed;
   top: 0px;
   left: -300px;
@@ -1652,13 +1652,13 @@ nav ul li:hover {
 
 .burgerclose:nth-child(2) {
 	transform: rotate(45deg);
-	left: 130px;
+	left: 80px;
 	width: 40px;
 }
 
 .burgerclose:nth-child(3) {
 	transform: rotate(-45deg);
-	left: 130px;
+	left: 80px;
 	width: 40px;
 }
 
@@ -1954,9 +1954,9 @@ h4 {
   background-image: inherit;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgba(25, 25, 25, .8);
-  height: 100%;
-  width: 300px;
+  background-color: var(--noir);
+  height: 335px;
+  width: 200px;
   position: fixed;
   top: 0px;
   left: -300px;
@@ -2082,13 +2082,13 @@ nav ul li:hover {
 
 .burgerclose:nth-child(2) {
 	transform: rotate(45deg);
-	left: 130px;
+	left: 80px;
 	width: 40px;
 }
 
 .burgerclose:nth-child(3) {
 	transform: rotate(-45deg);
-	left: 130px;
+	left: 80px;
 	width: 40px;
 }
 
