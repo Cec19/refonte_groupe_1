@@ -1744,7 +1744,6 @@ h5{
 }
 
 
-
 /*FIN CECILE*/
 }/*fin media 544/767*/
 
@@ -1797,6 +1796,10 @@ h3 {
 
 .ancre {
 	display: none;
+}
+
+.texteblocVAcceuil {
+	width: 279px;
 }
 
 .article1 {
@@ -2175,5 +2178,6 @@ h5{
 	font-size: 10px;
 	position: absolute;
 }
+
 /*FIN CECILE*/
 }/*fin media <543*/
