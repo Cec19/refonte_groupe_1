@@ -1669,8 +1669,9 @@ nav ul li:hover {
 
 /* ACTU ET CONTACT CECILE */
 .container{
-	width: 400px;
+	width: 300px;
 	margin: auto;
+
 }
 
 iframe{
@@ -1684,8 +1685,12 @@ iframe{
 	padding-bottom: 50px;
 }
 
-.colonnes {
-	flex-direction: column;
+.image{
+	display: inline-grid;
+}
+
+.actus{
+	display: inline-grid;
 }
 
 /*FIN CECILE*/
