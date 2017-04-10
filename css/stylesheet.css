@@ -1696,8 +1696,92 @@ nav ul li:hover {
 @media screen and (max-width: 543px) {
 /* PAGE ACCUEIL GWENDAL */
 
+h3 {
+	font-size: 20px;
+}
 
+.headerpageAcceuil h1 {
+    padding-top: 65px;
+}
 
+.headerpageAcceuil {
+    height: 200px;
+}
+
+.bienvenue {
+    font-size: 12px;
+}
+
+.ancre1 {
+	background-color: var(--bleu);
+	padding-bottom: 0px;
+	margin-top: 0px;
+}
+
+.logoancre {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ancre {
+	display: none;
+}
+
+.article1 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 3px 10px black;
+}
+
+.article2 {
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 3px 10px black;
+}
+.article3 {
+	display: none;
+}
+
+.article4 {
+	display: none;
+}
+
+.facebook {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 120px;
+}
+
+.blanc {
+	   padding-top: 1px;
+}
+
+.partenaires {
+	text-align: center;
+}
+
+.logo {
+	height: 30px;
+	width: auto;
+}
+
+.afsame p {
+	font-size: 8px;
+}
+
+.logoAfsame {
+	height: 60px;
+}
+
+.logoFB {
+	height: 30px;
+}
+
+footer {
+	padding-bottom: 20px;
+}
 
 
 
