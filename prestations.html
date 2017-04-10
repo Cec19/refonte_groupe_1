@@ -231,7 +231,9 @@
 
 	<script>
 
-		$(".button" ).on('touchstart', '.publications',function() {
+
+	$(document).on("vclick", ".button", function() {
+  // Whatever you want to do
 			if(parseInt($(".slideMenu").css("left")) == -300)  
 				$(".slideMenu").stop().animate({left: "+=300px"}, 500);  
 			if(parseInt($(".slideMenu").css("left")) >= 0)  
@@ -250,8 +252,10 @@
 
 
 			}
+});
+/*		$(".button").on('touchstart', '.publications',function() {
 		});
-
+*/
 
 
 	</script>
