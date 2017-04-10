@@ -1543,7 +1543,7 @@ nav ul li {
   border-bottom: 1px solid white;
   color: var(--bleu);
   font-family: verdana, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 55px;
   height: 55px;
   display: block;
@@ -1570,10 +1570,10 @@ nav ul li:hover {
 
 #openmenu {
   position: absolute;
-  height: 75px;
-  width: 75px;
-  margin: 10px;
-  background-color: var(--noir);
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0);
   color: var(--bleu);
   border-radius: 15px;
   top: 0;
@@ -1582,7 +1582,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
@@ -1594,29 +1594,28 @@ nav ul li:hover {
 	background: white;
 	border-radius: 9px;
 	opacity: 1;
-	left: 6px;
+	left: 4px;
 	transform: rotate(0deg);
 	transition: .3s ease-in-out;
 }
 
 .burger:nth-child(1) {
-	top: 20px;
+	top: 8px;
 }
 
 .burger:nth-child(2) {
-	top: 30px;
+	top: 18px;
 }
 
 .burger:nth-child(3) {
-	top: 40px
+	top: 28px
 }
 
 #closemenu {
-  height: 75px;
-  width: 75px;
-  margin: 10px auto auto auto;
-  background-color: var(--noir);
-  color: var(--bleu);
+  height: 50px;
+  width: 50px;
+  margin: 20px auto auto auto;
+  background: none;
   border-radius: 15px;
   top: 0;
   text-align: center;
@@ -1624,7 +1623,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
@@ -1649,14 +1648,14 @@ nav ul li:hover {
 
 .burgerclose:nth-child(2) {
 	transform: rotate(45deg);
-	left: 125px;
-	width: 50px;
+	left: 130px;
+	width: 40px;
 }
 
 .burgerclose:nth-child(3) {
 	transform: rotate(-45deg);
-	left: 125px;
-	width: 50px;
+	left: 130px;
+	width: 40px;
 }
 
 .active {
@@ -1973,7 +1972,7 @@ nav ul li {
   border-bottom: 1px solid white;
   color: var(--bleu);
   font-family: verdana, sans-serif;
-  font-size: 30px;
+  font-size:2 0px;
   line-height: 55px;
   height: 55px;
   display: block;
@@ -2000,10 +1999,10 @@ nav ul li:hover {
 
 #openmenu {
   position: absolute;
-  height: 75px;
-  width: 75px;
-  margin: 10px;
-  background-color: var(--noir);
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  background: none;
   color: var(--bleu);
   border-radius: 15px;
   top: 0;
@@ -2012,7 +2011,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
@@ -2024,28 +2023,28 @@ nav ul li:hover {
 	background: white;
 	border-radius: 9px;
 	opacity: 1;
-	left: 6px;
+	left: 4px;
 	transform: rotate(0deg);
 	transition: .3s ease-in-out;
 }
 
 .burger:nth-child(1) {
-	top: 20px;
+	top: 8px;
 }
 
 .burger:nth-child(2) {
-	top: 30px;
+	top: 18px;
 }
 
 .burger:nth-child(3) {
-	top: 40px
+	top: 28px
 }
 
 #closemenu {
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
   margin: 10px auto auto auto;
-  background-color: var(--noir);
+  background: none;
   color: var(--bleu);
   border-radius: 15px;
   top: 0;
@@ -2054,7 +2053,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
@@ -2079,14 +2078,14 @@ nav ul li:hover {
 
 .burgerclose:nth-child(2) {
 	transform: rotate(45deg);
-	left: 125px;
-	width: 50px;
+	left: 130px;
+	width: 40px;
 }
 
 .burgerclose:nth-child(3) {
 	transform: rotate(-45deg);
-	left: 125px;
-	width: 50px;
+	left: 130px;
+	width: 40px;
 }
 
 .active {
