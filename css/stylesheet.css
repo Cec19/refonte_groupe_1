@@ -1385,7 +1385,7 @@ h3 {
 }
 
 .logo {
-	height: 70px;
+	height: 40px;
 	width: auto;
 }
 
@@ -1798,7 +1798,8 @@ h3 {
 }
 
 .texteblocVAcceuil {
-	width: 279px;
+	width: 280px;
+	margin-top: -3px;
 }
 
 .article1 {

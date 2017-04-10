@@ -54,8 +54,8 @@
 			</button>
 			<nav>
 				<ul>
-					<li><a href="index.html"  class="active">ACCUEIL</a></li>
-					<li ><a href="prestations.html">PRESTATIONS</a></li>
+					<li><a href="index.html">ACCUEIL</a></li>
+					<li ><a href="prestations.html" class="active">PRESTATIONS</a></li>
 					<li ><a href="actualites.html">ACTUALITES</a></li>
 					<li ><a href="contact.html">CONTACT</a></li>
 				</ul>
@@ -67,9 +67,9 @@
 			<nav class="bignav">
 				<div class="container">
 					<ul class="menu">
-						<li class="nav-item"><a href="index.html"  class="active">ACCUEIL</a></li>
+						<li class="nav-item"><a href="index.html">ACCUEIL</a></li>
 						<ul class="deroulant">
-							<li class="nav-item"><a href="prestations.html">PRESTATIONS</a>
+							<li class="nav-item"><a href="prestations.html" class="active">PRESTATIONS</a>
 								<ul class="sub-nav">
 									<li class="sub-nav-item"><a href="#logements">Logements</a></li>
 									<li class="sub-nav-item"><a href="#restauration">Restauration</a></li>
@@ -268,9 +268,6 @@
 
 	</body>
 
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-
 	<script>
 
 		$(".button" ).click(function() {
@@ -278,6 +275,20 @@
 				$(".slideMenu").stop().animate({left: "+=300px"}, 500);  
 			if(parseInt($(".slideMenu").css("left")) >= 0)  
 				$(".slideMenu").stop().animate({left: "-=300px"}, 500);
+
+
+			if( parseInt($(".slideMenu").css("left")) == -300){
+
+
+				$('#openmenu').hide();
+
+
+			}else{
+
+				$('#openmenu').show();
+
+
+			}
 		});
 
 
