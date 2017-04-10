@@ -43,10 +43,12 @@
 
 	<!-- HEADER -->
 	<header>
-
 		<div class="slideMenu">
-
-		<button class="button">menu</button>
+			<button class="button" id="closemenu">
+				<div class="burgerclose"></div>
+				<div class="burgerclose"></div>
+				<div class="burgerclose"></div>
+			</button>
 			<nav>
 				<ul>
 					<li><a href="index.html">ACCUEIL</a></li>
@@ -84,7 +86,11 @@
 		<div class="container">
 			<h2>Les prestations</h2>
 		</div>
-		<button class="button">menu</button>
+		<button class="button" id="openmenu">
+			<div class="burger"></div>
+			<div class="burger"></div>
+			<div class="burger"></div>
+		</button>
 	</div>
 </header>
 
@@ -225,7 +231,7 @@
 
 	<script>
 
-		$( ".button" ).click(function() {
+		$(".button" ).click(function() {
 			if(parseInt($(".slideMenu").css("left")) == -300)  
 				$(".slideMenu").stop().animate({left: "+=300px"}, 500);  
 			if(parseInt($(".slideMenu").css("left")) >= 0)  
