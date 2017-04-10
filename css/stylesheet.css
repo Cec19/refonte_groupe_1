@@ -1508,12 +1508,25 @@ nav ul li:hover {
 /* FIN MARINE */
 
 /* ACTU ET CONTACT CECILE */
+.container{
+	width: 400px;
+	margin: auto;
+}
 
+iframe{
+	width: 100%;
+	height: 100%;
+}
 
+.margecontact{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
 
-
-
-
+.colonnes {
+	flex-direction: column;
+}
 
 /*FIN CECILE*/
 }/*fin media <543*/
