@@ -1925,8 +1925,9 @@ span{
 
 .article{
 	margin-right: 15px;
-	padding-left: 15px;
+	
 	font-size: 12px;
+	margin: 0;
 }
 
 
@@ -1934,13 +1935,40 @@ h5{
 	font-size: 14px;
 }
 
-.article{
+.image > img{
 	width: 100%;
-	margin: 0;
+	height: auto;
 }
 
-.actus{
-	margin: 0;
+.textebloc{
+	padding-bottom: 40px;
+}
+
+.mobili{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.boutons a{
+	font-size: 10px;
+}
+
+.boutondroit:before{
+
+	font-family:  FontAwesome, sans-serif;
+	content: "\f0d9";
+	margin-right: 10px;
+	font-size: 10px;
+	position: absolute;
+	left: 20px;
+}
+
+.boutongauche:after{
+	font-family: FontAwesome, sans-serif;
+	content: "\f0da";
+	margin-left: 10px;
+	font-size: 10px;
+	position: absolute;
 }
 /*FIN CECILE*/
 }/*fin media <543*/
