@@ -1226,6 +1226,18 @@ a.active {
 
 .articlebloc {
 	background-color: var(--bleu);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.articlebloc:first-child{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.articlebloc:last-child{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .texteblocV {
@@ -1235,6 +1247,9 @@ a.active {
 	background-color: var(--vert);
 	text-align: center;
 	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
 }
 
 p{
