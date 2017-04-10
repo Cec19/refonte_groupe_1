@@ -1576,8 +1576,8 @@ nav ul li:hover {
   position: absolute;
   height: 50px;
   width: 50px;
-  margin: 10px;
-  background-color: var(--noir);
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0);
   color: var(--bleu);
   border-radius: 15px;
   top: 0;
@@ -1586,7 +1586,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
@@ -1618,9 +1618,8 @@ nav ul li:hover {
 #closemenu {
   height: 50px;
   width: 50px;
-  margin: 10px auto auto auto;
-  background-color: var(--noir);
-  color: var(--bleu);
+  margin: 20px auto auto auto;
+  background: none;
   border-radius: 15px;
   top: 0;
   text-align: center;
@@ -1628,7 +1627,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
@@ -1977,7 +1976,7 @@ nav ul li {
   border-bottom: 1px solid white;
   color: var(--bleu);
   font-family: verdana, sans-serif;
-  font-size: 30px;
+  font-size:2 0px;
   line-height: 55px;
   height: 55px;
   display: block;
@@ -2006,8 +2005,8 @@ nav ul li:hover {
   position: absolute;
   height: 50px;
   width: 50px;
-  margin: 10px;
-  background-color: var(--noir);
+  margin: 20px;
+  background: none;
   color: var(--bleu);
   border-radius: 15px;
   top: 0;
@@ -2016,7 +2015,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
@@ -2049,7 +2048,7 @@ nav ul li:hover {
   height: 50px;
   width: 50px;
   margin: 10px auto auto auto;
-  background-color: var(--noir);
+  background: none;
   color: var(--bleu);
   border-radius: 15px;
   top: 0;
@@ -2058,7 +2057,7 @@ nav ul li:hover {
   font-family: verdana, sans-serif;
   transition: all .4s;
   cursor: pointer;
-  border: 7px solid var(--noir);
+  border: none;
   font-weight: bolder;
 }
 
