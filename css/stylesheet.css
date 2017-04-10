@@ -1667,7 +1667,94 @@ nav ul li:hover {
 
 /* ACTU ET CONTACT CECILE */
 
+.container{
+	width: 300px;
+	margin: auto;
 
+}
+
+iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.margecontact{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+.image{
+	display: inline-grid;
+	width: 100%;
+}
+
+.actus{
+	display: inline-grid;
+}
+
+.titform{
+	font-size: 14px;
+}
+
+.boutenv{
+	width: 100%;
+	font-size: 14px;
+}
+
+span{
+	font-size: 2vw;
+}
+.adresse{
+	font-size: 2vw;
+}
+
+.article{
+	margin-right: 15px;
+	
+	font-size: 12px;
+	margin: 0;
+}
+
+
+h5{
+	font-size: 14px;
+}
+
+.image > img{
+	width: 100%;
+	height: auto;
+}
+
+.textebloc{
+	padding-bottom: 40px;
+}
+
+.mobili{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.boutons a{
+	font-size: 10px;
+}
+
+.boutondroit:before{
+
+	font-family:  FontAwesome, sans-serif;
+	content: "\f0d9";
+	margin-right: 10px;
+	font-size: 10px;
+	position: absolute;
+	left: 20px;
+}
+
+.boutongauche:after{
+	font-family: FontAwesome, sans-serif;
+	content: "\f0da";
+	margin-left: 10px;
+	font-size: 10px;
+	position: absolute;
 
 
 
