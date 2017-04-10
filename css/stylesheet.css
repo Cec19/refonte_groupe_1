@@ -1309,6 +1309,72 @@ span{
 @media screen and (min-width: 544px) and (max-width: 767px) {
 /* PAGE ACCUEIL GWENDAL */
 
+.ancre {
+	background-color: var(--bleu);
+	height: 100px;
+	font-family: "FontAwesome";
+	content: "\f015";
+}
+.image1 {
+	display: none;
+}
+
+.image2 {
+	display: none;
+}
+
+.image3 {
+	display: none;
+}
+
+.facebook {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 100px;
+}
+
+.partenaires {
+	text-align: center;
+}
+
+.logo {
+	height: 70px;
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
