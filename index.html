@@ -45,34 +45,58 @@
 
 		<!-- LE HEADER -->
 
-	    <header>
+	<header>
+		<div class="slideMenu">
+			<button class="button" id="closemenu">
+				<div class="burgerclose"></div>
+				<div class="burgerclose"></div>
+				<div class="burgerclose"></div>
+			</button>
 			<nav>
+				<ul>
+					<li><a href="index.html"  class="active">ACCUEIL</a></li>
+					<li ><a href="prestations.html">PRESTATIONS</a></li>
+					<li ><a href="actualites.html">ACTUALITES</a></li>
+					<li ><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<div class="menu">
+			<nav class="bignav">
 				<div class="container">
 					<ul class="menu">
-						<li class="nav-item"><a href="index.html" class="active">ACCUEIL</a></li>
-							<ul class="deroulant">
-								<li class="nav-item"><a href="prestations.html">PRESTATIONS</a>
+						<li class="nav-item"><a href="index.html"  class="active">ACCUEIL</a></li>
+						<ul class="deroulant">
+							<li class="nav-item"><a href="prestations.html">PRESTATIONS</a>
 								<ul class="sub-nav">
 									<li class="sub-nav-item"><a href="#logements">Logements</a></li>
 									<li class="sub-nav-item"><a href="#restauration">Restauration</a></li>
 									<li class="sub-nav-item"><a href="#auberge">Auberge</a></li>
 								</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item"><a href="actualites.html">ACTUALITES</a></li>
-						<li class="nav-item"><a href="contact.html">CONTACT</a></li>
-					</ul>
-				</div>
-			</nav>
-			
-			<div class="headerpageAcceuil">
-				<div class="container">
-					<h1>AFSAME LE FOYER</h1>
-					<h2>Chaque jour à vos cotés</h2>
-				</div>
+							</li>
+						</ul>
+				
+					<li class="nav-item"><a href="actualites.html">ACTUALITES</a></li>
+					<li class="nav-item"><a href="contact.html">CONTACT</a></li>
+				</ul>
 			</div>
-		</header>
+		</nav>
+	</div>
+
+	<div class="headerpageAcceuil">
+		<div class="container">
+			<h1>AFSAME LE FOYER</h1>
+			<h2>Chaque jour à vos cotés</h2>
+		</div>
+		<button class="button" id="openmenu">
+			<div class="burger"></div>
+			<div class="burger"></div>
+			<div class="burger"></div>
+		</button>
+	</div>
+</header>
 
 		<!-- LE MAIN -->
 
@@ -107,6 +131,23 @@
 					<a href="prestations.html#auberge" class="ancrebouton">Auberge</a>
 				</div>
 			</section>
+			
+				<section class="ancre1">
+					<div class="container">
+						<div class="logoancre">
+							<div>
+								<a href="prestations.html#logement"><img src="images/home.png" height="80px"></a>
+							</div>
+							<div>
+								<a href="prestations.html#restauration"><img src="images/dinner.png" height="80px"></a>
+							</div>
+							<div>
+								<a href="prestations.html#auberge"><img src="images/bed.png" height="80px"></a>
+							</div>
+						</div>
+					</div>
+				</section>
+
 
 			<!-- LA SECTION DES ACTUALITES -->
 
@@ -226,4 +267,21 @@
 			</footer>
 
 	</body>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+	<script>
+
+		$(".button" ).click(function() {
+			if(parseInt($(".slideMenu").css("left")) == -300)  
+				$(".slideMenu").stop().animate({left: "+=300px"}, 500);  
+			if(parseInt($(".slideMenu").css("left")) >= 0)  
+				$(".slideMenu").stop().animate({left: "-=300px"}, 500);
+		});
+
+
+
+	</script>
+
 </html>
