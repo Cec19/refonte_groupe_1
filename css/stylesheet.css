@@ -456,10 +456,8 @@ h4 {
 	cursor: pointer;
 }
 
-.texteblocVAcceuil a:hover {
-	background-color: white;
+.texteblocVAcceuil:hover a {
 	color: var(--bleu);
-	cursor: pointer;
 }
 
 .texteblocBAcceuil {
@@ -483,10 +481,8 @@ h4 {
 	cursor: pointer;
 }
 
-.texteblocBAcceuil a:hover {
-	background-color: white;
+.texteblocBAcceuil:hover a {
 	color: var(--bleu);
-	cursor: pointer;
 }
 
 .colfoot {
