@@ -516,21 +516,21 @@ footer {
 
 /*DEBUT PARTIE CECILE*/
 
-.actu, .headerpage{
+.actu, .headerpage {
 	margin-bottom: 80px;
 }
 
-section{
+section {
 	padding-bottom: 60px;
 }
 
-.article{
+.article {
 	padding-left: 25px;
 	padding-right: 25px;
 	margin:0;
 }
 
-h5{
+h5 {
 	font-size: 1.2vw;
 	font-weight: 900;
 	padding-left: 25px;
@@ -545,21 +545,21 @@ h5{
 }
 
 
-.boutons{
+.boutons {
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
 	vertical-align: center;
 }
 
-.boutons a{
+.boutons a {
 	text-decoration: none;
 	color: var(--blanc);
 	margin: 0;	
 	font-size: 1.5vw;
 }
 
-.boutondroit{
+.boutondroit {
 	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
 	text-align: center;
 	padding-top: 15px;
@@ -569,7 +569,7 @@ h5{
 	position: relative;
 }
 	
-.boutongauche{
+.boutongauche {
 	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
 	text-align: center;
 	padding-top: 15px;
@@ -579,7 +579,7 @@ h5{
 	position: relative;
 }
 	
-.boutondroit:before{
+.boutondroit:before {
 
 	font-family:  FontAwesome, sans-serif;
 	content: "\f0d9";
@@ -589,7 +589,7 @@ h5{
 	left: 20px;
 }
 
-.boutongauche:after{
+.boutongauche:after {
 	font-family: FontAwesome, sans-serif;
 	content: "\f0da";
 	margin-left: 10px;
@@ -597,25 +597,25 @@ h5{
 	position: absolute;
 }
 
-.boutongauche:hover{
+.boutongauche:hover {
 	color: var(--bleu);
 	background: var(--blanc);
 }
 
-.boutondroit:hover{
+.boutondroit:hover {
 	color: var(--bleu);
 	background: var(--blanc);
 }
 
-.image .dateB{
+.image .dateB {
 	position: absolute;
 }
 
-.image .dateV{
+.image .dateV {
 	position: absolute;
 }
 
-.dateB{
+.dateB {
 	background: var(--bleu);
 	color: var(--blanc);
 	position: relative;
@@ -627,7 +627,7 @@ h5{
 	opacity: 0.7;
 }
 
-.dateV{
+.dateV {
 	background-color: var(--vert);
 	color: var(--blanc);
 	position: relative;
@@ -642,20 +642,20 @@ h5{
 
 /* contact cecile*/
 
-.titform{
+.titform {
 	color: var(--blanc);
 	font-size: 1.2vw;
 }
 
-span{
+span {
 	opacity: 0.5;
 }
 
-.adresse{
+.adresse {
 	margin: 0;
 }
 
-.tel{
+.tel {
 	margin: 0;
 }
 
@@ -671,7 +671,7 @@ span{
 
 /*formulaire*/
 
-input{
+input {
 	width: 100%;
 	height: 40px;
 	background-color: grey;
@@ -680,7 +680,7 @@ input{
 	margin-top: 15px;
 }
 
-textarea{
+textarea {
 	width: 100%;
 	background-color: grey;
 	border: none;
@@ -690,7 +690,7 @@ textarea{
 }
 
 
-.boutenv{
+.boutenv {
 	background: linear-gradient( to right,var(--bleu),var(--vert)) ;
 	width: 250px;
 	color: var(--blanc);
@@ -698,7 +698,7 @@ textarea{
 	margin-bottom: 80px;
 }
 
-.boutenv:hover{
+.boutenv:hover {
 	background: var(--blanc);
 	color: var(--bleu);
 	padding: 0;
@@ -870,7 +870,7 @@ a.active {
 	color: white;
 }
 
-p{
+p {
 	font-size: 14px;
 }
 
@@ -930,13 +930,13 @@ iframe{
 	padding-top: 30px;
 }
 
-#travaux{
+#travaux {
 	padding-bottom: 20px;
 	padding-top: 30px;
 
 }
 
-.article{
+.article {
 	margin-right: 15px;
 	padding-left: 15px;
 	font-size: 12px;
@@ -1237,7 +1237,7 @@ a.active {
 	color: white;
 }
 
-p{
+p {
 	font-size: 14px;
 }
 
