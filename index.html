@@ -268,9 +268,12 @@
 
 	</body>
 
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
 	<script>
 
-		$(".button" ).click(function() {
+		$(".button").click(function() {
 			if(parseInt($(".slideMenu").css("left")) == -300)  
 				$(".slideMenu").stop().animate({left: "+=300px"}, 500);  
 			if(parseInt($(".slideMenu").css("left")) >= 0)  
