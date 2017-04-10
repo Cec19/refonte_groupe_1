@@ -1900,11 +1900,47 @@ iframe{
 
 .image{
 	display: inline-grid;
+	width: 100%;
 }
 
 .actus{
 	display: inline-grid;
 }
 
+.titform{
+	font-size: 14px;
+}
+
+.boutenv{
+	width: 100%;
+	font-size: 14px;
+}
+
+span{
+	font-size: 2vw;
+}
+.adresse{
+	font-size: 2vw;
+}
+
+.article{
+	margin-right: 15px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+
+h5{
+	font-size: 14px;
+}
+
+.article{
+	width: 100%;
+	margin: 0;
+}
+
+.actus{
+	margin: 0;
+}
 /*FIN CECILE*/
 }/*fin media <543*/
