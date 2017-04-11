@@ -509,7 +509,7 @@ footer {
 /*DEBUT PARTIE CECILE*/
 
 .actu, .headerpage {
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 
 section {
@@ -1620,7 +1620,7 @@ h3 {
 }
 
 .afsame p {
-	font-size: 8px;
+	font-size: 12px;
 }
 
 .logoAfsame {
@@ -1631,10 +1631,13 @@ h3 {
 	height: 30px;
 }
 
+footer span{
+	font-size: 12px;
+}
+
 footer {
 	padding-bottom: 20px;
 }
-
 /*FIN GOUROU */
 
 /* PAGE PRESTATIONS MARINE */
@@ -1665,7 +1668,7 @@ section{
 
 .texteblocV {
 	position: relative;
-	width: 220px;
+	width: 93%;
 	padding: 10px;
 	background-color: var(--vert);
 	text-align: center;
@@ -1867,6 +1870,14 @@ iframe{
 	height: 100%;
 }
 
+span{
+	font-size: 16px;
+}
+
+.adresse{
+	font-size: 14px;
+}
+
 .margecontact{
 	text-align: center;
 	padding-top: 0px;
@@ -1889,13 +1900,6 @@ iframe{
 .boutenv{
 	width: 100%;
 	font-size: 14px;
-}
-
-span{
-	font-size: 2vw;
-}
-.adresse{
-	font-size: 2vw;
 }
 
 .article{

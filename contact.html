@@ -3,7 +3,7 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="css/stylesheet.css">
 		<meta charset="utf-8"/>
-		<title>AFSAM le Foyer GRAY</title>
+		<title>AFSAME le Foyer GRAY</title>
 		<meta name="description=" content="Afsame Le Foyer des jeunes travailleurs vous propose des chambres à partir de 5 nuits, en auberge ou au foyer, ainsi qu'un service de restauration">
 		<meta name="Keywords" content="Gray, Foyer, Auberge, Chambre, Restauration, jeunes, voyageurs.">
 		<meta name="Revisit-After" content="15 days">
@@ -59,16 +59,13 @@
 				<div class="container">
 					<ul class="menu">
 						<li class="nav-item"><a href="index.html">ACCUEIL</a></li>
-						<ul class="deroulant">
-							<li class="nav-item"><a href="prestations.html">PRESTATIONS</a>
-								<ul class="sub-nav">
-									<li class="sub-nav-item"><a href="prestations.html#logements">Logements</a></li>
-									<li class="sub-nav-item"><a href="prestations.html#restauration">Restauration</a></li>
-									<li class="sub-nav-item"><a href="prestations.html#auberge">Auberge</a></li>
-								</ul>
-							</li>
-						</ul>
-				
+						<li class="nav-item"><a href="prestations.html">PRESTATIONS</a>
+							<ul class="sub-nav">
+								<li class="sub-nav-item"><a href="prestations.html#logements">Logements</a></li>
+								<li class="sub-nav-item"><a href="prestations.html#restauration">Restauration</a></li>
+								<li class="sub-nav-item"><a href="prestations.html#auberge">Auberge</a></li>
+							</ul>
+						</li>
 					<li class="nav-item"><a href="actualites.html">ACTUALIT&#201;S</a></li>
 					<li class="nav-item"><a href="contact.html" class="active">CONTACT</a></li>
 				</ul>
@@ -111,17 +108,17 @@
                                     <form action="formulaire" method="post">
                                           <div class="contactme">      
                                                 <label for="nom" class="titform">Nom</label>
-                                                <input type="text" id="nom"/>
+                                                <input type="text" id="nom" required/>
                                           </div>
                                           <div>
                                                 <label for="courriel" class="titform">Email</label>
-                                                <input type="email" id="courriel"/>
+                                                <input type="email" id="courriel" required/>
                                           </div>
                                           <div id="mess">
                                                 <label for="message" class="titform">Message</label>
                                                 <textarea id="message" rows="11" cols="50" required></textarea>
                                           </div>
-                                          <input class="boutenv" type="submit" value="Envoyer"/>
+                                          <input  class="boutenv" type="submit" value="Envoyer"/>
                                     </form>
                               </div>     
                         </div>
