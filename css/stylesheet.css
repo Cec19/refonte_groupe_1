@@ -129,7 +129,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3vw;
+	font-size: 40px;
 	color: var(--blanc);
 	font-weight: 900;
 	text-align: center;
@@ -324,18 +324,18 @@ h4 {
 	background-image: url(../images/header.jpg);
 	background-position: center;
 	width: 100%;
-	height: 600px;
+	height: 540px;
 }
 
 .headerpageAcceuil h1 {
 	padding-top: 180px;
-	font-size: 4vw;
+	font-size: 60px;
 	margin-bottom: 30px;
 	margin-top: 0px;
 }
 
 .headerpageAcceuil h2 {
-	font-size: 4vw;
+	font-size: 40px;
 	margin-top: 0;
 }
 
@@ -1140,7 +1140,15 @@ h3 {
 }
 
 .headerpageAcceuil h1 {
-    padding-top: 110px;
+	padding-top: 110px;
+	font-size: 40px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.headerpageAcceuil h2 {
+	font-size: 25px;
+	margin-top: 0;
 }
 
 .headerpageAcceuil {
@@ -1255,7 +1263,7 @@ p{
 }
 
 h2{
-	font-size: 32px;
+	font-size: 28px;
 }
 
 h3.gauche {
@@ -1522,6 +1530,18 @@ h5{
 	margin: auto;
 }
 
+.headerpageAcceuil h1 {
+	padding-top: 180px;
+	font-size: 24px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.headerpageAcceuil h2 {
+	font-size: 18px;
+	margin-top: 0;
+}
+
 h3 {
 	font-size: 20px;
 }
@@ -1600,7 +1620,7 @@ h3 {
 }
 
 .afsame p {
-	font-size: 8px;
+	font-size: 12px;
 }
 
 .logoAfsame {
@@ -1611,10 +1631,13 @@ h3 {
 	height: 30px;
 }
 
+footer span{
+	font-size: 12px;
+}
+
 footer {
 	padding-bottom: 20px;
 }
-
 /*FIN GOUROU */
 
 /* PAGE PRESTATIONS MARINE */
