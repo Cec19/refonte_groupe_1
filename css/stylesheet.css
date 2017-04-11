@@ -426,12 +426,12 @@ h4 {
 }
 
 .article4 .image {
-	width: 362px;
+	width: 388px;
 }
 
 .texteblocVAcceuil {
 	position: relative;
-	width: 342px;
+	width: 368px;
 	padding: 10px;
 	background-color: var(--vert);
 	text-align: center;
@@ -457,7 +457,7 @@ h4 {
 
 .texteblocBAcceuil {
 	position: relative;
-	width: 342px;
+	width: 368px;
 	padding: 10px;
 	background-color: var(--bleu);
 	text-align: center;
@@ -973,7 +973,7 @@ h3 {
 
 .article4 {
 	margin-top: 0px;
-	margin-left: 119px;
+	margin-left: 106px;
 	margin-right: auto;
 }
 
