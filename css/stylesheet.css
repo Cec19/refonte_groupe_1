@@ -1847,6 +1847,14 @@ iframe{
 	height: 100%;
 }
 
+span{
+	font-size: 16px;
+}
+
+.adresse{
+	font-size: 14px;
+}
+
 .margecontact{
 	text-align: center;
 	padding-top: 0px;
@@ -1869,13 +1877,6 @@ iframe{
 .boutenv{
 	width: 100%;
 	font-size: 14px;
-}
-
-span{
-	font-size: 2vw;
-}
-.adresse{
-	font-size: 2vw;
 }
 
 .article{
