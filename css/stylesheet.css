@@ -129,7 +129,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3vw;
+	font-size: 40px;
 	color: var(--blanc);
 	font-weight: 900;
 	text-align: center;
@@ -1263,7 +1263,7 @@ p{
 }
 
 h2{
-	font-size: 32px;
+	font-size: 28px;
 }
 
 h3.gauche {
@@ -1675,7 +1675,7 @@ section{
 	color: white;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .texteblocV>footer {
@@ -1885,8 +1885,8 @@ span{
 }
 
 .image{
-	display: inline-grid;
 	width: 100%;
+	flex-direction: column;
 }
 
 .actus{
