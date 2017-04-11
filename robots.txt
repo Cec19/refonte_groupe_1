@@ -1,0 +1,4 @@
+# Référencement webophil.net
+# Fichier robots.txt pour le site : https://keolite.github.io/refonte_groupe_1/
+User-agent: *
+Sitemap: https://keolite.github.io/refonte_groupe_1/sitemap.xml
