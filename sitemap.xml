@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://keolite.github.io/refonte_groupe_1/index.html">
+
+   <url>
+    <loc>http://keolite.github.io/refonte_groupe_1/index.html</loc>
+    <lastmod>2017-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+   </url> 
+
+   <url>
+    <loc>http://keolite.github.io/refonte_groupe_1/prestations.html#logement</loc>
+    <lastmod>2017-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
+    <loc>http://keolite.github.io/refonte_groupe_1/prestations.html#restauration</loc>
+    <lastmod>2017-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
+    <loc>http://keolite.github.io/refonte_groupe_1/prestations.html#auberge</loc>
+    <lastmod>2017-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
+    <loc>http://keolite.github.io/refonte_groupe_1/actualites.html</loc>
+    <lastmod>2017-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>http://keolite.github.io/refonte_groupe_1/contact.html</loc>
+    <lastmod>2017-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+   </url> 
+
+</urlset>
