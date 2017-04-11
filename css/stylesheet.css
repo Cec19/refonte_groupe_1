@@ -1932,5 +1932,10 @@ h5{
 	height: 200px;
 }
 
+.headerpage h2 {
+	padding-top: 80px;
+	margin-top: 0;
+}
+
 /*FIN CECILE*/
 }/*fin media <543*/
